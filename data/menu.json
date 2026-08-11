@@ -13,74 +13,66 @@
     {
       "tag": "Entree",
       "name": "Tater Tot Casserole",
-      "desc": "Comfort, done right \u2014 the kind of warm, hearty bake that makes an easy weeknight feel like a Sunday.",
+      "desc": "This feel-good twist on Tater Tot Casserole is full of ground turkey, delicious homemade sauce, and plentiful veggies. Get ready for a hearty, comforting dinner!",
       "price": 10,
       "new": false,
-      "serves": null,
-      "image": "assets/menu/tater-tot-casserole.jpg"
+      "serves": null
     },
     {
       "tag": "Entree",
       "name": "Greek Chicken Bowl",
-      "desc": "Zesty, bright, and full of fresh Mediterranean flavor \u2014 a satisfying bowl that keeps things interesting.",
+      "desc": "Delicious Mediterranean flavors combine with chicken to deliver a hearty but simple and tasty lunch or light dinner!",
       "price": 10,
       "new": false,
-      "serves": null,
-      "image": "assets/menu/greek-chicken-bowl.jpg"
+      "serves": null
     },
     {
       "tag": "Entree",
       "name": "Egg Roll in a Bowl",
-      "desc": "All the flavor of your favorite egg roll, deconstructed into a veggie-packed bowl. Better than takeout, and healthier, too.",
+      "desc": "Put down the greasy, fried rolls and grab this dish by the bowl! All the flavor of a less-than-healthy favorite, but with none of the guilt!",
       "price": 10,
       "new": false,
-      "serves": null,
-      "image": "assets/menu/egg-roll-bowl.jpg"
+      "serves": null
     },
     {
       "tag": "Breakfast",
       "name": "Breakfast Taco A Go Go",
-      "desc": "Grab-your-morning-by-the-bites energy \u2014 a breakfast that's ready when you are, and gone before you're out the door.",
+      "desc": "It's like having a street food vendor in your refrigerator! Take your breakfast taco scramble on the road with you and make your life easy and delicious.",
       "price": 10,
       "new": false,
-      "serves": null,
-      "image": "assets/menu/breakfast-taco.jpg"
+      "serves": null
     },
     {
       "tag": "Snack",
       "name": "Acai Chia Pudding",
-      "desc": "Fresh, summery, and cool from the fridge \u2014 a light, trendy pick-me-up that's perfect for hot August days.",
+      "desc": "If you like acai bowls, you will LOVE this healthier Acai Chia Pudding! All the creamy, dreamy flavors of an acai bowl without all the sugar or high price, just the good stuff!",
       "price": 6,
       "new": false,
-      "serves": null,
-      "image": "assets/menu/acai-chia-pudding.jpg"
+      "serves": null
     },
     {
       "tag": "Salad",
       "name": "Broccoli Farro Salad",
-      "desc": "Light, hearty, and hot-weather friendly \u2014 a satisfying grain salad that stands on its own.",
+      "desc": "We've taken a potluck classic and given it a HUGE upgrade!! It's packed with sweet and savory flavors and crunchy and chewy textures. It's full of nutrients, and is so delicious you won't want to stop eating it!",
       "price": 10,
       "new": false,
-      "serves": null,
-      "image": "assets/menu/broccoli-farro-salad.jpg"
+      "serves": null
     },
     {
       "tag": "Salad",
       "name": "Broccoli Farro Salad (with Chicken)",
-      "desc": "The potluck classic, upgraded \u2014 same crunchy, chewy goodness, now with grilled chicken for extra staying power.",
+      "desc": "We've taken a potluck classic and given it a HUGE upgrade!! It's packed with sweet and savory flavors and crunchy and chewy textures. It's full of nutrients, and is so delicious you won't want to stop eating it! Also available as a plant-based salad.",
       "price": 12,
       "new": true,
-      "serves": null,
-      "image": "assets/menu/broccoli-farro-salad.jpg"
+      "serves": null
     },
     {
       "tag": "Take & Bake",
       "name": "Tater Tot Casserole",
-      "desc": "The easiest way to feed your family and feel good about it \u2014 grab one for the weekend, pop it in the oven, done.",
+      "desc": "This feel-good twist on Tater Tot Casserole is full of ground turkey, delicious homemade sauce, and plentiful veggies. Get ready for a hearty, comforting dinner! Pop the container into your oven and have a 6-serving meal ready in under 30 minutes!",
       "price": 40,
       "new": false,
-      "serves": 6,
-      "image": "assets/menu/tater-tot-takebake.jpg"
+      "serves": 6
     }
   ]
 }

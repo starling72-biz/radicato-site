@@ -79,13 +79,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         var price = "$" + item.price;
 
-        // Optional subtle dish photo strip (supporting accent, not the focus)
-        var imgHtml = item.image
-          ? '<div class="card-img"><img src="' + item.image + '" alt="" loading="lazy"></div>'
-          : "";
-
         card.innerHTML =
-          imgHtml +
           tagHtml +
           nameHtml +
           '<p class="card-desc">' + escapeHtml(item.desc) + "</p>" +

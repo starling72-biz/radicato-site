@@ -198,20 +198,6 @@ h2 { font-size: clamp(2.2rem, 4.6vw, 3.1rem); margin-bottom: .6rem; }
   transition: transform .15s ease, box-shadow .15s ease;
 }
 .card:hover { transform: translateY(-4px); box-shadow: 0 12px 30px rgba(0,0,0,.08); }
-.card-img {
-  margin: -1.5rem -1.5rem 1.05rem;
-  height: 92px;
-  border-radius: 15px 15px 0 0;
-  overflow: hidden;
-  background: var(--sage);
-}
-.card-img img {
-  width: 100%; height: 100%;
-  object-fit: cover;
-  object-position: center 32%;
-  display: block;
-  filter: saturate(.96) contrast(1.02);
-}
 .card-tag {
   font-size: .72rem; font-weight: 700; text-transform: uppercase;
   letter-spacing: .16em; color: var(--ink);
