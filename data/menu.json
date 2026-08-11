@@ -35,7 +35,8 @@
       "price": 10,
       "new": false,
       "serves": null,
-      "image": "assets/menu/egg-roll-bowl.jpg"
+      "image": "assets/menu/egg-roll-bowl.jpg",
+      "op": "center 45%"
     },
     {
       "tag": "Breakfast",
@@ -44,7 +45,8 @@
       "price": 10,
       "new": false,
       "serves": null,
-      "image": "assets/menu/breakfast-taco.jpg"
+      "image": "assets/menu/breakfast-taco.jpg",
+      "op": "center 28%"
     },
     {
       "tag": "Snack",
@@ -53,7 +55,8 @@
       "price": 6,
       "new": false,
       "serves": null,
-      "image": "assets/menu/acai-chia-pudding.jpg"
+      "image": "assets/menu/acai-chia-pudding.jpg",
+      "op": "center 39%"
     },
     {
       "tag": "Salad",
