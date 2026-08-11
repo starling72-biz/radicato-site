@@ -169,6 +169,25 @@ h2 { font-size: clamp(1.9rem, 4vw, 2.6rem); margin-bottom: .6rem; }
   flex: 0 1 330px;
   max-width: 100%;
 }
+
+.menu-status-closed {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-top: 3px solid var(--green);
+  border-radius: 16px;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  max-width: 620px;
+  margin: 0 auto 2rem;
+}
+.menu-status-closed h3 {
+  color: var(--ink);
+  margin-bottom: .5rem;
+}
+.menu-status-closed p {
+  color: var(--muted);
+  margin: 0;
+}
 .card {
   background: var(--paper);
   border: 1px solid var(--line);

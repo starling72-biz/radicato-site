@@ -30,9 +30,37 @@ document.addEventListener("DOMContentLoaded", function () {
       return r.json();
     })
     .then(function (data) {
+      // Manage "menu closed / reopens soon" state from menuStatus in menu.json
+      var statusBox = document.getElementById("menuStatusClosed");
+      var closedMsg = document.getElementById("menuClosedMsg");
+      var ms = data.menuStatus || {};
+      var now = new Date();
+      var closeAt = ms.closeAt ? new Date(ms.closeAt) : null;
+      var reopenAt = ms.reopenAt ? new Date(ms.reopenAt) : null;
+
+      if (statusBox && closeAt && reopenAt) {
+        if (now >= closeAt && now < reopenAt) {
+          // Orders closed; menu reopens soon.
+          grid.hidden = true;
+          statusBox.hidden = false;
+          var rd = ms.reopenLabel || "soon";
+          if (closedMsg) {
+            closedMsg.textContent =
+              "Orders are closed for this week. We'll reopen with a fresh menu " +
+              rd +
+              " — see you then!";
+          }
+        } else {
+          statusBox.hidden = true;
+        }
+      }
+
       // Update the "This Week" label if the element exists
       var weekLabel = document.querySelector("[data-week-label]");
       if (weekLabel && data.weekLabel) weekLabel.textContent = "This Week · " + data.weekLabel;
+
+      // If the menu is closed, don't render the weekly cards.
+      if (grid.hidden) return;
 
       var orderUrl = (data.orderUrl || "https://radicato.goprep.com/customer/menu");
 
