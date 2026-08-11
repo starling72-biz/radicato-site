@@ -1,11 +1,11 @@
 /* =========================================================
-   Radicáto — Brand: basil green (#56D400) + black (#000000)
+   Radicáto — Brand: green (#66A242) + black (#000000) + white
    Fonts: DM Serif Display (headings) + Inter (body)
    ========================================================= */
 
 :root {
-  --green: #56D400;
-  --green-dark: #3fa800;
+  --green: #66A242;
+  --green-dark: #538436;
   --black: #000000;
   --ink: #111111;
   --paper: #ffffff;
@@ -48,9 +48,9 @@ a:hover { text-decoration: underline; }
 .btn-primary {
   background: var(--green);
   color: var(--black);
-  box-shadow: 0 4px 14px rgba(86,212,0,.35);
+  box-shadow: 0 4px 14px rgba(102,162,66,.35);
 }
-.btn-primary:hover { background: var(--green-dark); color: #fff; box-shadow: 0 6px 18px rgba(86,212,0,.45); }
+.btn-primary:hover { background: var(--green-dark); color: #fff; box-shadow: 0 6px 18px rgba(102,162,66,.45); }
 .btn-ghost {
   border: 2px solid rgba(255,255,255,.4);
   color: #fff;
@@ -94,7 +94,7 @@ h2 { font-size: clamp(1.9rem, 4vw, 2.6rem); margin-bottom: .6rem; }
   width: 22px; height: 22px; border-radius: 50%;
   background: var(--green);
   display: inline-block;
-  box-shadow: 0 0 0 3px rgba(86,212,0,.25);
+  box-shadow: 0 0 0 3px rgba(102,162,66,.25);
 }
 .brand-word {
   font-family: var(--serif);
@@ -136,7 +136,7 @@ h2 { font-size: clamp(1.9rem, 4vw, 2.6rem); margin-bottom: .6rem; }
   content: "";
   position: absolute; right: -120px; top: -120px;
   width: 420px; height: 420px; border-radius: 50%;
-  background: radial-gradient(circle, rgba(86,212,0,.28), transparent 65%);
+  background: radial-gradient(circle, rgba(102,162,66,.28), transparent 65%);
   pointer-events: none;
 }
 .hero .container { position: relative; z-index: 1; }
