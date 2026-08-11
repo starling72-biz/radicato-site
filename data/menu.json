@@ -1,8 +1,8 @@
 {
-  "weekLabel": "Aug 15–16",
+  "weekLabel": "Aug 15\u201316",
   "deadline": "Wednesday 9:00 AM",
-  "pickupSat": "8:00–10:00 AM",
-  "pickupSun": "5:30–6:30 PM",
+  "pickupSat": "8:00\u201310:00 AM",
+  "pickupSun": "5:30\u20136:30 PM",
   "orderUrl": "https://radicato.goprep.com/customer/menu",
   "menuStatus": {
     "closeAt": "2026-08-12T09:00:00-05:00",
@@ -13,18 +13,20 @@
     {
       "tag": "Entree",
       "name": "Tater Tot Casserole",
-      "desc": "Comfort, done right — the kind of warm, hearty bake that makes an easy weeknight feel like a Sunday.",
+      "desc": "Comfort, done right \u2014 the kind of warm, hearty bake that makes an easy weeknight feel like a Sunday.",
       "price": 10,
       "new": false,
-      "serves": null
+      "serves": null,
+      "image": "assets/menu/tater-tot-casserole.jpg"
     },
     {
       "tag": "Entree",
       "name": "Greek Chicken Bowl",
-      "desc": "Zesty, bright, and full of fresh Mediterranean flavor — a satisfying bowl that keeps things interesting.",
+      "desc": "Zesty, bright, and full of fresh Mediterranean flavor \u2014 a satisfying bowl that keeps things interesting.",
       "price": 10,
       "new": false,
-      "serves": null
+      "serves": null,
+      "image": "assets/menu/greek-chicken-bowl.jpg"
     },
     {
       "tag": "Entree",
@@ -32,47 +34,53 @@
       "desc": "All the flavor of your favorite egg roll, deconstructed into a veggie-packed bowl. Better than takeout, and healthier, too.",
       "price": 10,
       "new": false,
-      "serves": null
+      "serves": null,
+      "image": "assets/menu/egg-roll-bowl.jpg"
     },
     {
       "tag": "Breakfast",
       "name": "Breakfast Taco A Go Go",
-      "desc": "Grab-your-morning-by-the-bites energy — a breakfast that's ready when you are, and gone before you're out the door.",
+      "desc": "Grab-your-morning-by-the-bites energy \u2014 a breakfast that's ready when you are, and gone before you're out the door.",
       "price": 10,
       "new": false,
-      "serves": null
+      "serves": null,
+      "image": "assets/menu/breakfast-taco.jpg"
     },
     {
       "tag": "Snack",
       "name": "Acai Chia Pudding",
-      "desc": "Fresh, summery, and cool from the fridge — a light, trendy pick-me-up that's perfect for hot August days.",
+      "desc": "Fresh, summery, and cool from the fridge \u2014 a light, trendy pick-me-up that's perfect for hot August days.",
       "price": 6,
       "new": false,
-      "serves": null
+      "serves": null,
+      "image": "assets/menu/acai-chia-pudding.jpg"
     },
     {
       "tag": "Salad",
       "name": "Broccoli Farro Salad",
-      "desc": "Light, hearty, and hot-weather friendly — a satisfying grain salad that stands on its own.",
+      "desc": "Light, hearty, and hot-weather friendly \u2014 a satisfying grain salad that stands on its own.",
       "price": 10,
       "new": false,
-      "serves": null
+      "serves": null,
+      "image": "assets/menu/broccoli-farro-salad.jpg"
     },
     {
       "tag": "Salad",
       "name": "Broccoli Farro Salad (with Chicken)",
-      "desc": "The potluck classic, upgraded — same crunchy, chewy goodness, now with grilled chicken for extra staying power.",
+      "desc": "The potluck classic, upgraded \u2014 same crunchy, chewy goodness, now with grilled chicken for extra staying power.",
       "price": 12,
       "new": true,
-      "serves": null
+      "serves": null,
+      "image": "assets/menu/broccoli-farro-salad.jpg"
     },
     {
       "tag": "Take & Bake",
       "name": "Tater Tot Casserole",
-      "desc": "The easiest way to feed your family and feel good about it — grab one for the weekend, pop it in the oven, done.",
+      "desc": "The easiest way to feed your family and feel good about it \u2014 grab one for the weekend, pop it in the oven, done.",
       "price": 40,
       "new": false,
-      "serves": 6
+      "serves": 6,
+      "image": "assets/menu/tater-tot-takebake.jpg"
     }
   ]
 }
