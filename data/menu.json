@@ -6,8 +6,8 @@
   "orderUrl": "https://radicato.goprep.com/customer/menu",
   "menuStatus": {
     "closeAt": "2026-08-12T09:00:00-05:00",
-    "reopenAt": "2026-08-14T00:00:00-05:00",
-    "reopenLabel": "Friday morning"
+    "reopenAt": "2099-12-31T00:00:00-05:00",
+    "reopenLabel": "once the new menu is published"
   },
   "items": [
     {
