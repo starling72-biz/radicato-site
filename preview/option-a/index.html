@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Radicáto — Restaurant-quality, ready-to-heat meals in Boone, Iowa</title>
+<meta name="description" content="Radicáto makes restaurant-quality, ready-to-heat meals for Boone, Iowa. Pre-order by Wednesday, pick up Saturday or Sunday. The Radicáto Kitchen.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600;700&family=Zilla+Slab:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css?v=9-preview-a">
+</head>
+<body>
+
+<!-- ===== NAV ===== -->
+<header class="site-header" id="top">
+  <div class="container nav-wrap">
+    <a class="brand" href="#top">
+      <img class="brand-logo" src="assets/radicato-logo-white.png" alt="Radicáto">
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="#menu">This Week</a>
+      <a href="#how">How It Works</a>
+      <a href="#about">Our Story</a>
+      <a href="#visit">Find Us</a>
+      <a class="nav-order" href="https://radicato.goprep.com/customer/menu" target="_blank" rel="noopener">Order Now</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="container">
+    <p class="eyebrow">Made fresh weekly · Boone, Iowa</p>
+    <h1 class="hero-title">Good food, done<br>the <em>Radicáto</em> way.</h1>  <!-- em keeps green emphasis; italic removed via CSS -->
+    <p class="hero-sub">Restaurant-quality, ready-to-heat meals — real ingredients, unmatched flavor, zero guesswork. Pre-order by Wednesday, pick up this weekend.</p>
+    <div class="hero-actions">
+      <a class="btn btn-ghost" href="#menu">See the Menu</a>
+    </div>
+    <p class="hero-note">Orders close <strong>Wednesday 9:00 AM</strong> · Pickup Sat 8–10 AM &amp; Sun 5:30–6:30 PM</p>
+  </div>
+</section>
+
+<!-- ===== WEEKLY MENU ===== -->
+<section class="menu section" id="menu">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow" data-week-label>This Week</p>
+      <h2>The Menu</h2>
+      <p class="lede">A rotating lineup, cooked fresh each week so you're never stuck in a rut. Here's what's on the table for this weekend.</p>
+    </div>
+
+    <div class="menu-status-closed" id="menuStatusClosed" hidden>
+      <h3>This week's menu is closed.</h3>
+      <p id="menuClosedMsg">Orders are closed for this week. We'll reopen with a fresh menu soon.</p>
+    </div>
+
+    <!-- Menu rendered from data/menu.json by js/main.js -->
+    <div class="menu-grid" id="menuGrid" aria-live="polite">
+      <noscript>
+        <p class="lede">This week's menu is updated automatically — please enable JavaScript to see it, or visit our ordering page.</p>
+        <p><a class="btn btn-primary" href="https://radicato.goprep.com/customer/menu" target="_blank" rel="noopener">View &amp; Order the Menu</a></p>
+      </noscript>
+    </div>
+
+    <div class="menu-cta">
+      <a class="btn btn-primary btn-lg" href="https://radicato.goprep.com/customer/menu" target="_blank" rel="noopener">Place Your Order</a>
+      <p class="menu-cta-note">Orders close <strong>Wednesday 9:00 AM</strong>. Order while you're thinking about it — future you will thank present you.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== HOW IT WORKS ===== -->
+<section class="how section alt" id="how">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Simple by design</p>
+      <h2>How It Works</h2>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <span class="step-num">1</span>
+        <h3>Browse the menu</h3>
+        <p>Fresh lineup drops every week — see what's on for the weekend.</p>
+      </div>
+      <div class="step">
+        <span class="step-num">2</span>
+        <h3>Pre-order by Wednesday</h3>
+        <p>Place your order and pay online. The window closes at <strong>9 AM Wednesday</strong>.</p>
+      </div>
+      <div class="step">
+        <span class="step-num">3</span>
+        <h3>Pick up this weekend</h3>
+        <p>Grab your fresh meals on <strong>Saturday 8–10 AM</strong> or <strong>Sunday 5:30–6:30 PM</strong>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section class="about section" id="about">
+  <div class="container split">
+    <div class="about-text">
+      <p class="eyebrow">Nourishing Boone</p>
+      <h2>We're just a couple locals, sourcing locally.</h2>
+      <p>Radicáto is two great friends working each day to make the local community we love a little better — one dish at a time. We cook fresh, use real ingredients, and keep it simple.</p>
+      <p>One day soon, we'll be cooking out of our very own space in downtown Boone&mdash;the Radicáto Kitchen. Until then, we're thrilled to be your go-to for deliciously easy meal prep done the Radicáto way.</p>
+    </div>
+    <div class="about-values" aria-label="What we care about">
+      <div class="value"><span class="value-ico">🥗</span><div><strong>Real ingredients</strong><p>Fresh, recognizable food — not a mystery list.</p></div></div>
+      <div class="value"><span class="value-ico">💚</span><div><strong>Local first</strong><p>Sourcing locally whenever we can, to fuel our own community.</p></div></div>
+      <div class="value"><span class="value-ico">⚡</span><div><strong>Made for busy you</strong><p>Convenient AND nourishing. No trade-offs.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== VISIT ===== -->
+<section class="visit section alt" id="visit">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Find us</p>
+      <h2>Pickup &amp; Contact</h2>
+    </div>
+    <div class="visit-grid">
+      <div class="visit-card">
+        <h3>📍 Pickup</h3>
+        <p><strong>Saturday:</strong> 8:00 – 10:00 AM<br><strong>Sunday:</strong> 5:30 – 6:30 PM</p>
+        <p>Boone, Iowa (exact pickup location shared with your order)</p>
+      </div>
+      <div class="visit-card">
+        <h3>🕐 Ordering</h3>
+        <p>Orders open each week and close <strong>Wednesday at 9:00 AM</strong>.</p>
+        <a class="btn btn-primary" href="https://radicato.goprep.com/customer/menu" target="_blank" rel="noopener">Start an Order</a>
+      </div>
+      <div class="visit-card">
+        <h3>💬 Say hi</h3>
+        <p>Questions about an order? We're happy to help before you place it.</p>
+        <p><a href="mailto:hello@radicato.com">hello@radicato.com</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-brand">
+      <img class="brand-logo footer-logo" src="assets/radicato-logo-white.png" alt="Radicáto">
+    </div>
+    <p class="footer-tag">Good food, done the Radicáto way.</p>
+    <nav class="footer-nav" aria-label="Footer">
+      <a href="#menu">This Week</a>
+      <a href="#how">How It Works</a>
+      <a href="#about">Our Story</a>
+      <a href="#visit">Find Us</a>
+    </nav>
+    <p class="footer-note">© <span id="year">2026</span> Radicáto · Boone, Iowa · Made with 💚</p>
+  </div>
+</footer>
+
+<script src="js/main.js?v=3"></script>
+</body>
+</html>
