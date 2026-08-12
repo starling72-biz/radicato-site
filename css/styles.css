@@ -13,7 +13,7 @@
   --muted: #5c6258;
   --line: #e4e8df;
   --serif: "DM Serif Display", Georgia, serif;
-  --slab: "Rokkitt", Georgia, serif;
+  --slab: "Arvo", Georgia, serif;
   --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
@@ -69,7 +69,7 @@ a:hover { text-decoration: underline; }
   color: var(--ink);
   margin-bottom: .6rem;
 }
-h1, h2, h3 { font-family: var(--serif); font-weight: 400; line-height: 1.12; }
+h1, h2, h3 { font-family: var(--slab); font-weight: 700; line-height: 1.12; }
 h2 { font-size: clamp(2.2rem, 4.6vw, 3.1rem); margin-bottom: .6rem; }
 .lede { color: var(--muted); max-width: 46ch; margin: 0 auto 2rem; }
 
@@ -99,7 +99,7 @@ h2 { font-size: clamp(2.2rem, 4.6vw, 3.1rem); margin-bottom: .6rem; }
   box-shadow: 0 0 0 3px rgba(102,162,66,.25);
 }
 .brand-word {
-  font-family: var(--serif);
+  font-family: var(--slab);
   font-size: 1.35rem;
   color: #fff;
   letter-spacing: .02em;
@@ -220,7 +220,7 @@ h2 { font-size: clamp(2.2rem, 4.6vw, 3.1rem); margin-bottom: .6rem; }
 .card h3 { font-size: 1.5rem; margin-bottom: .5rem; }
 .card-desc { color: var(--muted); font-size: .95rem; flex-grow: 1; margin-bottom: 1.2rem; }
 .card-foot { display: flex; align-items: center; justify-content: space-between; border-top: 1px solid var(--line); padding-top: .9rem; }
-.price { font-family: var(--serif); font-size: 1.4rem; }
+.price { font-family: var(--slab); font-size: 1.4rem; }
 .order-link { font-weight: 600; color: var(--ink); transition: color .15s ease; }
 .order-link:hover { color: var(--green-dark); text-decoration: none; }
 
@@ -245,7 +245,7 @@ h2 { font-size: clamp(2.2rem, 4.6vw, 3.1rem); margin-bottom: .6rem; }
 .about-values { display: flex; flex-direction: column; gap: 1.2rem; }
 .value { display: flex; gap: 1rem; align-items: flex-start; }
 .value-ico { font-size: 1.6rem; line-height: 1.3; }
-.value strong { font-family: var(--serif); font-size: 1.15rem; font-weight: 400; }
+.value strong { font-family: var(--slab); font-size: 1.15rem; font-weight: 400; }
 .value p { color: var(--muted); font-size: .92rem; }
 
 /* ---------- Visit ---------- */
@@ -262,12 +262,12 @@ h2 { font-size: clamp(2.2rem, 4.6vw, 3.1rem); margin-bottom: .6rem; }
 .footer-tag {
   margin: .9rem 0 1.4rem;
   color: var(--green);
-  font-family: var(--sans);
-  font-weight: 600;
+  font-family: var(--slab);
+  font-weight: 700;
   font-style: normal;
   text-transform: uppercase;
-  letter-spacing: .2em;
-  font-size: .85rem;
+  letter-spacing: .08em;
+  font-size: 1rem;
 }
 .footer-nav { display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap; margin-bottom: 1.2rem; }
 .footer-nav a { color: rgba(255,255,255,.7); font-size: .9rem; }
