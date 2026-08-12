@@ -1,6 +1,6 @@
 /* =========================================================
    Radicáto — Brand: green (#66A242) + black (#000000) + white
-   Fonts: DM Serif Display (headings) + Inter (body)
+   Fonts: Zilla Slab (display/headings) + Inter (body)
    ========================================================= */
 
 :root {
@@ -10,10 +10,11 @@
   --ink: #111111;
   --paper: #ffffff;
   --off-white: #eff3e9;
+  --warm-white: #f7f4ee;
   --muted: #5c6258;
   --line: #e4e8df;
   --serif: "DM Serif Display", Georgia, serif;
-  --slab: "Roboto Slab", Georgia, serif;
+  --slab: "Zilla Slab", Georgia, serif;
   --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
@@ -66,7 +67,7 @@ a:hover { text-decoration: underline; }
   letter-spacing: .2em;
   font-size: .78rem;
   font-weight: 600;
-  color: var(--ink);
+  color: var(--green-dark);
   margin-bottom: .6rem;
 }
 h1, h2, h3 { font-family: var(--slab); font-weight: 500; line-height: 1.12; text-wrap: balance; }
@@ -169,7 +170,7 @@ h2 { font-size: clamp(2.2rem, 4.6vw, 3.1rem); margin-bottom: .6rem; }
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1.4rem;
+  gap: 2rem;
   margin-bottom: 2.5rem;
 }
 .menu-grid > .card {
@@ -206,7 +207,7 @@ h2 { font-size: clamp(2.2rem, 4.6vw, 3.1rem); margin-bottom: .6rem; }
 .card:hover { transform: translateY(-4px); box-shadow: 0 12px 30px rgba(0,0,0,.08); }
 .card-tag {
   font-size: .72rem; font-weight: 700; text-transform: uppercase;
-  letter-spacing: .16em; color: var(--ink);
+  letter-spacing: .16em; color: var(--green-dark);
   margin-bottom: .7rem;
 }
 .new-badge {
@@ -218,10 +219,17 @@ h2 { font-size: clamp(2.2rem, 4.6vw, 3.1rem); margin-bottom: .6rem; }
   margin-left: .35rem; font-weight: 600;
 }
 .serves { font-weight: 600; color: var(--muted); font-size: .8rem; font-family: var(--sans); }
-.card h3 { font-size: 1.5rem; margin-bottom: .5rem; }
-.card-desc { color: var(--muted); font-size: .95rem; flex-grow: 1; margin-bottom: 1.2rem; }
+.card h3 {
+  font-family: var(--slab);
+  font-weight: 600;
+  font-size: 1.6rem;
+  letter-spacing: .005em;
+  margin-bottom: .6rem;
+  color: var(--ink);
+}
+.card-desc { color: var(--muted); font-size: .93rem; line-height: 1.65; flex-grow: 1; margin-bottom: 1.3rem; }
 .card-foot { display: flex; align-items: center; justify-content: space-between; border-top: 1px solid var(--line); padding-top: .9rem; }
-.price { font-family: var(--slab); font-weight: 500; font-size: 1.4rem; }
+.price { font-family: var(--slab); font-weight: 600; font-size: 1.45rem; color: var(--green-dark); }
 .order-link { font-weight: 600; color: var(--ink); transition: color .15s ease; }
 .order-link:hover { color: var(--green-dark); text-decoration: none; }
 
@@ -242,6 +250,11 @@ h2 { font-size: clamp(2.2rem, 4.6vw, 3.1rem); margin-bottom: .6rem; }
 
 /* ---------- About ---------- */
 .split { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: start; }
+.about-text h2 {
+  margin-bottom: 1.1rem;
+  padding-left: 1.1rem;
+  border-left: 3px solid var(--green);
+}
 .about-text p { margin-bottom: 1rem; color: #333; }
 .about-values { display: flex; flex-direction: column; gap: 1.2rem; }
 .value { display: flex; gap: 1rem; align-items: flex-start; }
