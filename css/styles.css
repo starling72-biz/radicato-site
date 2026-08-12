@@ -13,7 +13,7 @@
   --muted: #5c6258;
   --line: #e4e8df;
   --serif: "DM Serif Display", Georgia, serif;
-  --slab: "Arvo", Georgia, serif;
+  --slab: "Roboto Slab", Georgia, serif;
   --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
@@ -69,7 +69,8 @@ a:hover { text-decoration: underline; }
   color: var(--ink);
   margin-bottom: .6rem;
 }
-h1, h2, h3 { font-family: var(--slab); font-weight: 700; line-height: 1.12; }
+h1, h2, h3 { font-family: var(--slab); font-weight: 500; line-height: 1.12; text-wrap: balance; }
+h1 { font-weight: 700; }
 h2 { font-size: clamp(2.2rem, 4.6vw, 3.1rem); margin-bottom: .6rem; }
 .lede { color: var(--muted); max-width: 46ch; margin: 0 auto 2rem; }
 
@@ -220,7 +221,7 @@ h2 { font-size: clamp(2.2rem, 4.6vw, 3.1rem); margin-bottom: .6rem; }
 .card h3 { font-size: 1.5rem; margin-bottom: .5rem; }
 .card-desc { color: var(--muted); font-size: .95rem; flex-grow: 1; margin-bottom: 1.2rem; }
 .card-foot { display: flex; align-items: center; justify-content: space-between; border-top: 1px solid var(--line); padding-top: .9rem; }
-.price { font-family: var(--slab); font-size: 1.4rem; }
+.price { font-family: var(--slab); font-weight: 500; font-size: 1.4rem; }
 .order-link { font-weight: 600; color: var(--ink); transition: color .15s ease; }
 .order-link:hover { color: var(--green-dark); text-decoration: none; }
 
@@ -263,7 +264,7 @@ h2 { font-size: clamp(2.2rem, 4.6vw, 3.1rem); margin-bottom: .6rem; }
   margin: .9rem 0 1.4rem;
   color: var(--green);
   font-family: var(--slab);
-  font-weight: 700;
+  font-weight: 500;
   font-style: normal;
   text-transform: uppercase;
   letter-spacing: .08em;
