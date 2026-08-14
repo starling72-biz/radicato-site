@@ -1,75 +1,67 @@
 {
-  "weekLabel": "Aug 15\u201316",
+  "weekLabel": "Aug 22\u201323",
   "deadline": "Wednesday 9:00 AM",
   "pickupSat": "8:00\u201310:00 AM",
   "pickupSun": "5:30\u20136:30 PM",
   "orderUrl": "https://radicato.goprep.com/customer/menu",
   "menuStatus": {
-    "closeAt": "2026-08-12T09:00:00-05:00",
+    "closeAt": "2026-08-19T09:00:00-05:00",
     "reopenAt": "2099-12-31T00:00:00-05:00",
     "reopenLabel": "once the new menu is published"
   },
   "items": [
     {
       "tag": "Entree",
-      "name": "Tater Tot Casserole",
-      "desc": "This feel-good twist on Tater Tot Casserole is full of ground turkey, delicious homemade sauce, and plentiful veggies. Get ready for a hearty, comforting dinner!",
+      "name": "Chicken Tamale Bowl",
+      "desc": "Tasty chicken and veggies paired with cheesy polenta -this dish is ridiculously delicious! Bite after bite, it will have you coming back for more.",
       "price": 10,
       "new": false,
       "serves": null
     },
     {
       "tag": "Entree",
-      "name": "Greek Chicken Bowl",
-      "desc": "Delicious Mediterranean flavors combine with chicken to deliver a hearty but simple and tasty lunch or light dinner!",
+      "name": "Our Favorite Turkey Burger Entree",
+      "desc": "Where's the beef? Who cares? With this burger, even those who think they don't like turkey will likely change their minds! Juicy and packed with flavor, this is a healthy upgrade to your standard meat-and-potatoes dish.",
       "price": 10,
       "new": false,
       "serves": null
     },
     {
       "tag": "Entree",
-      "name": "Egg Roll in a Bowl",
-      "desc": "Put down the greasy, fried rolls and grab this dish by the bowl! All the flavor of a less-than-healthy favorite, but with none of the guilt!",
+      "name": "Buffalo Chicken Mac and Cheese",
+      "desc": "Protein and flavor-packed - this is a creamy, dreamy way to eat well with a mild kick.",
       "price": 10,
       "new": false,
       "serves": null
     },
     {
       "tag": "Breakfast",
-      "name": "Breakfast Taco A Go Go",
-      "desc": "It's like having a street food vendor in your refrigerator! Take your breakfast taco scramble on the road with you and make your life easy and delicious.",
-      "price": 10,
+      "name": "Biscoff Overnight Oats",
+      "desc": "Packed with protein, fiber, and an amazing cookie flavor - these are a delicious grab and go way to hit your goals!",
+      "price": 7,
       "new": false,
       "serves": null
     },
     {
-      "tag": "Snack",
-      "name": "Acai Chia Pudding",
-      "desc": "If you like acai bowls, you will LOVE this healthier Acai Chia Pudding! All the creamy, dreamy flavors of an acai bowl without all the sugar or high price, just the good stuff!",
-      "price": 6,
-      "new": false,
-      "serves": null
-    },
-    {
-      "tag": "Salad",
-      "name": "Broccoli Farro Salad",
-      "desc": "We've taken a potluck classic and given it a HUGE upgrade!! It's packed with sweet and savory flavors and crunchy and chewy textures. It's full of nutrients, and is so delicious you won't want to stop eating it!",
-      "price": 10,
-      "new": false,
-      "serves": null
-    },
-    {
-      "tag": "Salad",
-      "name": "Broccoli Farro Salad (with Chicken)",
-      "desc": "We've taken a potluck classic and given it a HUGE upgrade!! It's packed with sweet and savory flavors and crunchy and chewy textures. It's full of nutrients, and is so delicious you won't want to stop eating it! Also available as a plant-based salad.",
+      "tag": "Soup",
+      "name": "Roasted Poblano and Chicken Soup",
+      "desc": "This is the perfect soup for any season! Flavorful, light, and packed with good-for-you ingredients with just the right amount of spice thanks to locally grown poblanos.",
       "price": 12,
       "new": true,
       "serves": null
     },
     {
+      "tag": "Snack",
+      "name": "Puppy Chow Energy Bites",
+      "desc": "We've taken a favorite indulgent snack and given it a healthful boost! A smart way to have a sweet treat or a midafternoon pick-me-up. At 5g protein per ball of goodness, these whole-food treats will treat your body well!",
+      "price": 6,
+      "new": false,
+      "serves": null
+    },
+    {
       "tag": "Take & Bake",
-      "name": "Tater Tot Casserole",
-      "desc": "This feel-good twist on Tater Tot Casserole is full of ground turkey, delicious homemade sauce, and plentiful veggies. Get ready for a hearty, comforting dinner! Pop the container into your oven and have a 6-serving meal ready in under 30 minutes!",
+      "name": "Buffalo Chicken Mac and Cheese",
+      "desc": "Protein and flavor-packed - this is a creamy, dreamy way to eat well with a mild kick.",
       "price": 40,
       "new": false,
       "serves": 6
