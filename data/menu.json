@@ -1,67 +1,67 @@
 {
-  "weekLabel": "Aug 22\u201323",
+  "weekLabel": "Aug 29\u201330",
   "deadline": "Wednesday 9:00 AM",
   "pickupSat": "8:00\u201310:00 AM",
   "pickupSun": "5:30\u20136:30 PM",
   "orderUrl": "https://radicato.goprep.com/customer/menu",
   "menuStatus": {
-    "closeAt": "2026-08-19T09:00:00-05:00",
+    "closeAt": "2026-08-26T09:00:00-05:00",
     "reopenAt": "2099-12-31T00:00:00-05:00",
     "reopenLabel": "once the new menu is published"
   },
   "items": [
     {
       "tag": "Entree",
-      "name": "Chicken Tamale Bowl",
-      "desc": "Tasty chicken and veggies paired with cheesy polenta -this dish is ridiculously delicious! Bite after bite, it will have you coming back for more.",
+      "name": "Thai Peanut Chicken Bowl",
+      "desc": "Filled with fluffy rice, tender chicken, veggies, and covered in a creamy peanut sauce, these peanut chicken bowls check all the boxes.",
       "price": 10,
       "new": false,
       "serves": null
     },
     {
       "tag": "Entree",
-      "name": "Our Favorite Turkey Burger Entree",
-      "desc": "Where's the beef? Who cares? With this burger, even those who think they don't like turkey will likely change their minds! Juicy and packed with flavor, this is a healthy upgrade to your standard meat-and-potatoes dish.",
+      "name": "Honey Sesame Chicken",
+      "desc": "Juicy, flavor-packed chicken in a sweet and savory honey sesame stir fry sauce, alongside a bed of fluffy rice and tasty veggies.",
       "price": 10,
       "new": false,
       "serves": null
     },
     {
       "tag": "Entree",
-      "name": "Buffalo Chicken Mac and Cheese",
-      "desc": "Protein and flavor-packed - this is a creamy, dreamy way to eat well with a mild kick.",
+      "name": "Pretzel Crusted Pork Tenderloin",
+      "desc": "Tender pork breaded with crispy pretzels and baked until perfectly golden. Served with sweet potatoes and green veggie. Get ready for a new favorite!",
       "price": 10,
       "new": false,
       "serves": null
     },
     {
       "tag": "Breakfast",
-      "name": "Biscoff Overnight Oats",
-      "desc": "Packed with protein, fiber, and an amazing cookie flavor - these are a delicious grab and go way to hit your goals!",
-      "price": 7,
+      "name": "Loaded Breakfast Bowl",
+      "desc": "Scrambled eggs & bacon paired with sweet potato and veggies will keep you full and happy until lunchtime!",
+      "price": 10,
       "new": false,
       "serves": null
     },
     {
-      "tag": "Soup",
-      "name": "Roasted Poblano and Chicken Soup",
-      "desc": "This is the perfect soup for any season! Flavorful, light, and packed with good-for-you ingredients with just the right amount of spice thanks to locally grown poblanos.",
-      "price": 12,
-      "new": true,
-      "serves": null
-    },
-    {
       "tag": "Snack",
-      "name": "Puppy Chow Energy Bites",
-      "desc": "We've taken a favorite indulgent snack and given it a healthful boost! A smart way to have a sweet treat or a midafternoon pick-me-up. At 5g protein per ball of goodness, these whole-food treats will treat your body well!",
+      "name": "Apple Pie Parfait",
+      "desc": "High in protein and flavor, this parfait has it all: honey-vanilla yogurt, local apples to create a pie-like filling, and homemade granola!",
       "price": 6,
       "new": false,
       "serves": null
     },
     {
+      "tag": "Soup",
+      "name": "Not Your Average Tomato Soup",
+      "desc": "Comfort food made even better! This creamy, locally grown tomato-packed soup beats anything you can find in a can.",
+      "price": 12,
+      "new": false,
+      "serves": null
+    },
+    {
       "tag": "Take & Bake",
-      "name": "Buffalo Chicken Mac and Cheese",
-      "desc": "Protein and flavor-packed - this is a creamy, dreamy way to eat well with a mild kick.",
+      "name": "Jenny's Lasagna",
+      "desc": "A longtime favorite meal of Jenny's family, her handcrafted lasagna has all the layers of cheesy, saucy, noodle-y goodness you crave. Starting with a homemade meat sauce and layered with thoughtful additions that take a basic dish to another level, you don't want to miss the chance to get a piece of this!",
       "price": 40,
       "new": false,
       "serves": 6
