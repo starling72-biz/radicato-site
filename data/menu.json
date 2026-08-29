@@ -1,70 +1,70 @@
 {
-  "weekLabel": "Aug 29\u201330",
+  "weekLabel": "Sep 5\u20136",
   "deadline": "Wednesday 9:00 AM",
   "pickupSat": "8:00\u201310:00 AM",
   "pickupSun": "5:30\u20136:30 PM",
   "orderUrl": "https://radicato.goprep.com/customer/menu",
   "menuStatus": {
-    "closeAt": "2026-08-26T09:00:00-05:00",
+    "closeAt": "2026-09-02T09:00:00-05:00",
     "reopenAt": "2099-12-31T00:00:00-05:00",
     "reopenLabel": "once the new menu is published"
   },
   "items": [
     {
       "tag": "Entree",
-      "name": "Thai Peanut Chicken Bowl",
-      "desc": "Filled with fluffy rice, tender chicken, veggies, and covered in a creamy peanut sauce, these peanut chicken bowls check all the boxes.",
+      "name": "Garlic Parmesan Meatballs",
+      "desc": "Loaded with protein and flavor, these healthy baked turkey meatballs are going to be an amazing addition to your meal rotation! Topped with our creamy garlic parmesan sauce and served with roasted potatoes and steamed green beans on the side, these make healthy feel decadent!",
       "price": 10,
-      "new": false,
-      "serves": null
+      "new": false
     },
     {
       "tag": "Entree",
-      "name": "Honey Sesame Chicken",
-      "desc": "Juicy, flavor-packed chicken in a sweet and savory honey sesame stir fry sauce, alongside a bed of fluffy rice and tasty veggies.",
-      "price": 10,
-      "new": false,
-      "serves": null
+      "name": "Harvest Bowl w/ Chicken",
+      "desc": "Fall flavors take center stage in this hearty grain bowl! We've mixed the best of the season here. Also available in a plant-based version.",
+      "price": 12,
+      "new": true
     },
     {
       "tag": "Entree",
-      "name": "Pretzel Crusted Pork Tenderloin",
-      "desc": "Tender pork breaded with crispy pretzels and baked until perfectly golden. Served with sweet potatoes and green veggie. Get ready for a new favorite!",
-      "price": 10,
-      "new": false,
-      "serves": null
+      "name": "Southwest Beef Burrito Bowl",
+      "desc": "Rich and savory, with just enough spice to make your mouth wake up and say hello, but not so much that you're sweating and diving for the nearest glass of water. Served with rice, black beans, and pico de gallo, this bowl will turn up your taco Tuesday!",
+      "price": 11,
+      "new": false
     },
     {
       "tag": "Breakfast",
-      "name": "Loaded Breakfast Bowl",
-      "desc": "Scrambled eggs & bacon paired with sweet potato and veggies will keep you full and happy until lunchtime!",
+      "name": "Breakfast Pizza Bake",
+      "desc": "It's a breakfast pizza you can eat without feeling sluggish or guilty afterwards! We took the traditional flavors you enjoy and crafted them into a healthier option that doesn't skimp on flavor.",
       "price": 10,
-      "new": false,
-      "serves": null
+      "new": false
+    },
+    {
+      "tag": "Salad",
+      "name": "The Fox Salad",
+      "desc": "Two of our favorite root vegetables, carrots and beets, take center stage in this amazingly fresh and tasty salad named after one of our first supporters. This was Jody's favorite salad, and we have renamed it in her memory.",
+      "price": 10,
+      "new": false
+    },
+    {
+      "tag": "Salad",
+      "name": "The Fox Salad With Chicken",
+      "desc": "Two of our favorite root vegetables, carrots and beets, take center stage in this amazingly fresh and tasty salad, topped with juicy, tender chicken. Named after one of our first supporters, this was Jody's favorite salad, and we have renamed it in her memory.",
+      "price": 12,
+      "new": false
     },
     {
       "tag": "Snack",
-      "name": "Apple Pie Parfait",
-      "desc": "High in protein and flavor, this parfait has it all: honey-vanilla yogurt, local apples to create a pie-like filling, and homemade granola!",
+      "name": "Peanut Butter Chocolate Energy Bites",
+      "desc": "Our original recipe - these aren't your basic energy bites. They're loaded with whole foods and so much goodness for your body! A healthy way to have a sweet treat or a midafternoon pick-me-up. At 5g protein per ball of goodness, these whole-food treats will treat your body well!",
       "price": 6,
-      "new": false,
-      "serves": null
-    },
-    {
-      "tag": "Soup",
-      "name": "Not Your Average Tomato Soup",
-      "desc": "Comfort food made even better! This creamy, locally grown tomato-packed soup beats anything you can find in a can.",
-      "price": 12,
-      "new": false,
-      "serves": 2
+      "new": false
     },
     {
       "tag": "Take & Bake",
-      "name": "Jenny's Lasagna",
-      "desc": "A longtime favorite meal of Jenny's family, her handcrafted lasagna has all the layers of cheesy, saucy, noodle-y goodness you crave. Starting with a homemade meat sauce and layered with thoughtful additions that take a basic dish to another level, you don't want to miss the chance to get a piece of this!",
+      "name": "Garlic Parmesan Meatballs",
+      "desc": "Loaded with protein and flavor, these healthy baked turkey meatballs are going to be an amazing addition to your meal rotation! Topped with our creamy garlic parmesan sauce and served with pasta, these are a hit with the whole family!",
       "price": 40,
-      "new": false,
-      "serves": 6
+      "new": false
     }
   ]
 }
