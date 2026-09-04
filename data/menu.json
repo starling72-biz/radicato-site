@@ -1,70 +1,64 @@
 {
-  "weekLabel": "Sep 5\u20136",
+  "weekLabel": "Sep 12\u201313",
   "deadline": "Wednesday 9:00 AM",
   "pickupSat": "8:00\u201310:00 AM",
   "pickupSun": "5:30\u20136:30 PM",
   "orderUrl": "https://radicato.goprep.com/customer/menu",
   "menuStatus": {
-    "closeAt": "2026-09-02T09:00:00-05:00",
+    "closeAt": "2026-09-09T09:00:00-05:00",
     "reopenAt": "2099-12-31T00:00:00-05:00",
     "reopenLabel": "once the new menu is published"
   },
   "items": [
     {
       "tag": "Entree",
-      "name": "Garlic Parmesan Meatballs",
-      "desc": "Loaded with protein and flavor, these healthy baked turkey meatballs are going to be an amazing addition to your meal rotation! Topped with our creamy garlic parmesan sauce and served with roasted potatoes and steamed green beans on the side, these make healthy feel decadent!",
+      "name": "Spin Dip Chicken Bake",
+      "desc": "We've taken a favorite creamy appetizer and made it into a healthy, protein-packed entrée! All the yumminess and none of the guilt!",
       "price": 10,
       "new": false
     },
     {
       "tag": "Entree",
-      "name": "Harvest Bowl w/ Chicken",
-      "desc": "Fall flavors take center stage in this hearty grain bowl! We've mixed the best of the season here. Also available in a plant-based version.",
-      "price": 12,
+      "name": "Sesame Noodle Bowl",
+      "desc": "Great warm or cold, this bowl features springy noodles in a creamy, savory peanut sauce, and a bright selection of veggies to add some crisp crunch to every bite!",
+      "price": 10,
+      "new": false
+    },
+    {
+      "tag": "Entree",
+      "name": "Bacon Cheeseburger Meatballs",
+      "desc": "Small bites that offer up big flavor! We've taken the flavors from a decadent favorite - the bacon cheeseburger - and made them into a healthier meatball version!",
+      "price": 11,
       "new": true
     },
     {
-      "tag": "Entree",
-      "name": "Southwest Beef Burrito Bowl",
-      "desc": "Rich and savory, with just enough spice to make your mouth wake up and say hello, but not so much that you're sweating and diving for the nearest glass of water. Served with rice, black beans, and pico de gallo, this bowl will turn up your taco Tuesday!",
-      "price": 11,
-      "new": false
-    },
-    {
       "tag": "Breakfast",
-      "name": "Breakfast Pizza Bake",
-      "desc": "It's a breakfast pizza you can eat without feeling sluggish or guilty afterwards! We took the traditional flavors you enjoy and crafted them into a healthier option that doesn't skimp on flavor.",
+      "name": "Cinnamon Roll Baked Oatmeal",
+      "desc": "Oh my YUM!! We've taken a healthy spin on a classic! Amped up with protein, fiber, and deliciousness - this is a must try!",
       "price": 10,
       "new": false
     },
     {
-      "tag": "Salad",
-      "name": "The Fox Salad",
-      "desc": "Two of our favorite root vegetables, carrots and beets, take center stage in this amazingly fresh and tasty salad named after one of our first supporters. This was Jody's favorite salad, and we have renamed it in her memory.",
-      "price": 10,
-      "new": false
-    },
-    {
-      "tag": "Salad",
-      "name": "The Fox Salad With Chicken",
-      "desc": "Two of our favorite root vegetables, carrots and beets, take center stage in this amazingly fresh and tasty salad, topped with juicy, tender chicken. Named after one of our first supporters, this was Jody's favorite salad, and we have renamed it in her memory.",
+      "tag": "Soup",
+      "name": "Pasta e Fagioli Soup",
+      "desc": "This Italian classic is a winning combination of pasta, beans, beef, vegetables, and a broth that will warm you nicely as it continues to get cooler out!",
       "price": 12,
       "new": false
     },
     {
       "tag": "Snack",
-      "name": "Peanut Butter Chocolate Energy Bites",
-      "desc": "Our original recipe - these aren't your basic energy bites. They're loaded with whole foods and so much goodness for your body! A healthy way to have a sweet treat or a midafternoon pick-me-up. At 5g protein per ball of goodness, these whole-food treats will treat your body well!",
+      "name": "Blueberry Lemon Cheesecake Parfait",
+      "desc": "We took a favorite dessert and made it a guilt-free snack! High in protein and low in sugar, we use only whole-food ingredients to make this treat one you can feel really good about eating!",
       "price": 6,
-      "new": false
+      "new": true
     },
     {
       "tag": "Take & Bake",
-      "name": "Garlic Parmesan Meatballs",
-      "desc": "Loaded with protein and flavor, these healthy baked turkey meatballs are going to be an amazing addition to your meal rotation! Topped with our creamy garlic parmesan sauce and served with pasta, these are a hit with the whole family!",
+      "name": "Take & Bake Spin Dip Chicken Bake (6 servings)",
+      "desc": "We've taken a favorite creamy appetizer and made it into a healthy, protein-packed entrée! All the yumminess and none of the guilt!",
       "price": 40,
-      "new": false
+      "new": false,
+      "serves": 6
     }
   ]
 }
