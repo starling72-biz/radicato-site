@@ -1,61 +1,61 @@
 {
-  "weekLabel": "Sep 12\u201313",
+  "weekLabel": "Sep 19–20",
   "deadline": "Wednesday 9:00 AM",
-  "pickupSat": "8:00\u201310:00 AM",
-  "pickupSun": "5:30\u20136:30 PM",
+  "pickupSat": "8:00–10:00 AM",
+  "pickupSun": "5:30–6:30 PM",
   "orderUrl": "https://radicato.goprep.com/customer/menu",
   "menuStatus": {
-    "closeAt": "2026-09-09T09:00:00-05:00",
+    "closeAt": "2026-09-16T09:00:00-05:00",
     "reopenAt": "2099-12-31T00:00:00-05:00",
     "reopenLabel": "once the new menu is published"
   },
   "items": [
     {
       "tag": "Entree",
-      "name": "Spin Dip Chicken Bake",
-      "desc": "We've taken a favorite creamy appetizer and made it into a healthy, protein-packed entrée! All the yumminess and none of the guilt!",
+      "name": "Greek Chicken Meatballs",
+      "desc": "Delicious Greek chicken meatballs are nestled in a rich and creamy lemon sauce - they are perfect for the cooler fall weather!",
       "price": 10,
       "new": false
     },
     {
       "tag": "Entree",
-      "name": "Sesame Noodle Bowl",
-      "desc": "Great warm or cold, this bowl features springy noodles in a creamy, savory peanut sauce, and a bright selection of veggies to add some crisp crunch to every bite!",
-      "price": 10,
+      "name": "Fish Taco Bowl",
+      "desc": "Blackened Mahi Mahi tops this tasty bowl of cilantro-lime rice, zesty black beans, pickled cabbage and queso fresco for a fresh flavor punch that will brigthen up your whole day!",
+      "price": 12,
       "new": false
     },
     {
       "tag": "Entree",
-      "name": "Bacon Cheeseburger Meatballs",
-      "desc": "Small bites that offer up big flavor! We've taken the flavors from a decadent favorite - the bacon cheeseburger - and made them into a healthier meatball version!",
+      "name": "Philly Cheesesteak Mac & Cheese",
+      "desc": "We brought two comfort food classics together into one bowl of deliciousness that feels too good to be true! Here's to eating well while eating healthy!",
       "price": 11,
-      "new": true
+      "new": false
     },
     {
       "tag": "Breakfast",
-      "name": "Cinnamon Roll Baked Oatmeal",
-      "desc": "Oh my YUM!! We've taken a healthy spin on a classic! Amped up with protein, fiber, and deliciousness - this is a must try!",
-      "price": 10,
-      "new": false
+      "name": "Pumpkin Spice Latte Overnight Oats",
+      "desc": "Packed with protein, fiber, and the amazing flavor of a favorite fall latte - these are a delicious grab and go way to hit your goals!",
+      "price": 7,
+      "new": true
     },
     {
       "tag": "Soup",
-      "name": "Pasta e Fagioli Soup",
-      "desc": "This Italian classic is a winning combination of pasta, beans, beef, vegetables, and a broth that will warm you nicely as it continues to get cooler out!",
+      "name": "White Chicken Chili",
+      "desc": "Hearty, wholesome, and delicious, our white chicken chili is made with tender beans, juicy kernels of corn, shredded chicken, green chilis, and a tasty broth infused with tons of flavor!!",
       "price": 12,
       "new": false
     },
     {
       "tag": "Snack",
-      "name": "Blueberry Lemon Cheesecake Parfait",
-      "desc": "We took a favorite dessert and made it a guilt-free snack! High in protein and low in sugar, we use only whole-food ingredients to make this treat one you can feel really good about eating!",
+      "name": "Turkey Pinwheel Snack Box",
+      "desc": "Great little grab and go savory snack with bites of turkey, cheddar, greens, and a creamy sauce all tucked into a flatbread. Served with fruit and veggies. Perfect for the cooler!",
       "price": 6,
-      "new": true
+      "new": false
     },
     {
       "tag": "Take & Bake",
-      "name": "Take & Bake Spin Dip Chicken Bake (6 servings)",
-      "desc": "We've taken a favorite creamy appetizer and made it into a healthy, protein-packed entrée! All the yumminess and none of the guilt!",
+      "name": "Take & Bake Philly Cheesesteak Mac & Cheese (6 servings)",
+      "desc": "We brought two comfort food classics together into one bowl of deliciousness that feels too good to be true! Take & Bake serves 6.",
       "price": 40,
       "new": false,
       "serves": 6
