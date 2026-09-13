@@ -122,6 +122,24 @@
       link_location: a.className || 'unstyled'
     });
   }, true);
+
+  // Track "share the menu" actions (word-of-mouth referral signal)
+  document.addEventListener('click', function (e) {
+    var el = e.target.closest ? e.target.closest('a, button') : null;
+    if (!el) return;
+    var href = el.getAttribute('href') || '';
+    var isShareLink = el.hasAttribute('data-copy-link') ||
+                      href.indexOf('sms:') === 0 ||
+                      href.indexOf('mailto:?subject=') === 0;
+    if (!isShareLink) return;
+    var channel = el.hasAttribute('data-copy-link') ? 'copy_link'
+                : href.indexOf('sms:') === 0 ? 'sms'
+                : 'email';
+    gtag('event', 'share_menu', {
+      method: channel,
+      link_text: (el.textContent || '').trim()
+    });
+  }, true);
 </script>
 </head>
 <body>
