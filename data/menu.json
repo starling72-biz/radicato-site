@@ -1,63 +1,63 @@
 {
-  "weekLabel": "Sep 19–20",
+  "weekLabel": "Sep 26\u201327",
   "deadline": "Wednesday 9:00 AM",
-  "pickupSat": "8:00–10:00 AM",
-  "pickupSun": "5:30–6:30 PM",
+  "pickupSat": "8:00\u201310:00 AM",
+  "pickupSun": "5:30\u20136:30 PM",
   "orderUrl": "https://radicato.goprep.com/customer/menu",
   "menuStatus": {
-    "closeAt": "2026-09-16T09:00:00-05:00",
+    "closeAt": "2026-09-23T09:00:00-05:00",
     "reopenAt": "2099-12-31T00:00:00-05:00",
     "reopenLabel": "once the new menu is published"
   },
   "items": [
     {
       "tag": "Entree",
-      "name": "Greek Chicken Meatballs",
-      "desc": "Delicious Greek chicken meatballs are nestled in a rich and creamy lemon sauce - they are perfect for the cooler fall weather!",
+      "name": "Mississippi Pot Roast with Mixed Roasted Potatoes & Carrots",
+      "desc": "This might be comfort food or Sunday-after-church fare, but this healthy take on a classic pot roast recipe results in a very delicious meal full of clean ingredients and whole foods!",
+      "price": 11,
+      "new": false
+    },
+    {
+      "tag": "Entree",
+      "name": "Cuban Chicken & Black Bean Rice Bowl",
+      "desc": "Cilantro, lime, rice, and Cuban-style black beans serve as the base for this juicy chicken tossed in a blend of flavors that are full of life and tastiness.",
       "price": 10,
       "new": false
     },
     {
       "tag": "Entree",
-      "name": "Fish Taco Bowl",
-      "desc": "Blackened Mahi Mahi tops this tasty bowl of cilantro-lime rice, zesty black beans, pickled cabbage and queso fresco for a fresh flavor punch that will brigthen up your whole day!",
-      "price": 12,
-      "new": false
-    },
-    {
-      "tag": "Entree",
-      "name": "Philly Cheesesteak Mac & Cheese",
-      "desc": "We brought two comfort food classics together into one bowl of deliciousness that feels too good to be true! Here's to eating well while eating healthy!",
-      "price": 11,
+      "name": "Lemon Chicken Pasta",
+      "desc": "Fresh, vibrant, and simple, this herby Lemon Chicken Pasta Bowl is fit for any light lunch or dinner, and is tasty heated or eaten cold.",
+      "price": 10,
       "new": false
     },
     {
       "tag": "Breakfast",
-      "name": "Pumpkin Spice Latte Overnight Oats",
-      "desc": "Packed with protein, fiber, and the amazing flavor of a favorite fall latte - these are a delicious grab and go way to hit your goals!",
-      "price": 7,
-      "new": true
-    },
-    {
-      "tag": "Soup",
-      "name": "White Chicken Chili",
-      "desc": "Hearty, wholesome, and delicious, our white chicken chili is made with tender beans, juicy kernels of corn, shredded chicken, green chilis, and a tasty broth infused with tons of flavor!!",
-      "price": 12,
+      "name": "Breakfast Meatballs",
+      "desc": "Meatballs in the morning? You betcha! Tasty breakfast sausage-inspired meatballs are paired with cheesy polenta and soft scrambled eggs for a fun new twist on breakfast!",
+      "price": 10,
       "new": false
     },
     {
+      "tag": "Soup",
+      "name": "Autumn Butternut Squash Soup",
+      "desc": "This is hands down the best butternut squash soup you'll put in your belly!  Healthy, nourishing, AND delicious!!",
+      "price": 12,
+      "new": true
+    },
+    {
       "tag": "Snack",
-      "name": "Turkey Pinwheel Snack Box",
-      "desc": "Great little grab and go savory snack with bites of turkey, cheddar, greens, and a creamy sauce all tucked into a flatbread. Served with fruit and veggies. Perfect for the cooler!",
+      "name": "Scotcheroo Energy Bites",
+      "desc": "We've taken a favorite indulgent snack and given it a healthful boost! A smart way to have a sweet treat or a midafternoon pick-me-up. At 5g protein per ball of goodness, these whole-food treats will treat your body well!",
       "price": 6,
       "new": false
     },
     {
       "tag": "Take & Bake",
-      "name": "Take & Bake Philly Cheesesteak Mac & Cheese (6 servings)",
-      "desc": "We brought two comfort food classics together into one bowl of deliciousness that feels too good to be true! Take & Bake serves 6.",
+      "name": "Take & Bake Enchilada Chicken & Rice Casserole (6 servings)",
+      "desc": "Simple and nostalgic - fresh and juicy chicken, black beans, corn, cheese and rice come together in this dish that will take you back and keep you moving forward on your goals.",
       "price": 40,
-      "new": false,
+      "new": true,
       "serves": 6
     }
   ]
