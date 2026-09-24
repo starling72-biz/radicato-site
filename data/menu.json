@@ -1,63 +1,63 @@
 {
-  "weekLabel": "Sep 26\u201327",
+  "weekLabel": "Oct 3\u20134",
   "deadline": "Wednesday 9:00 AM",
   "pickupSat": "8:00\u201310:00 AM",
   "pickupSun": "5:30\u20136:30 PM",
   "orderUrl": "https://radicato.goprep.com/customer/menu",
   "menuStatus": {
-    "closeAt": "2026-09-23T09:00:00-05:00",
+    "closeAt": "2026-09-30T09:00:00-05:00",
     "reopenAt": "2099-12-31T00:00:00-05:00",
     "reopenLabel": "once the new menu is published"
   },
   "items": [
     {
       "tag": "Entree",
-      "name": "Mississippi Pot Roast with Mixed Roasted Potatoes & Carrots",
-      "desc": "This might be comfort food or Sunday-after-church fare, but this healthy take on a classic pot roast recipe results in a very delicious meal full of clean ingredients and whole foods!",
+      "name": "Creamy Chicken Fajita Pasta",
+      "desc": "Inspired by our buddy Reese and her excellent ideas for playing with food, this creamy pasta feels quite indulgent, but is lightened up and packed full of protein!",
+      "price": 10,
+      "new": false
+    },
+    {
+      "tag": "Entree",
+      "name": "Buffalo Chicken Protein Bowl",
+      "desc": "Looking for a simply delicious way to meet your goals? This bowl is it!! High in protein and flavor, it packs a punch without being too spicy.",
+      "price": 10,
+      "new": false
+    },
+    {
+      "tag": "Entree",
+      "name": "Street Corn Beef Bowl",
+      "desc": "Creamy street corn tops roasted sweet potatoes and perfectly seasoned beef in a flavorful power house of a dish.",
       "price": 11,
       "new": false
     },
     {
-      "tag": "Entree",
-      "name": "Cuban Chicken & Black Bean Rice Bowl",
-      "desc": "Cilantro, lime, rice, and Cuban-style black beans serve as the base for this juicy chicken tossed in a blend of flavors that are full of life and tastiness.",
-      "price": 10,
-      "new": false
-    },
-    {
-      "tag": "Entree",
-      "name": "Lemon Chicken Pasta",
-      "desc": "Fresh, vibrant, and simple, this herby Lemon Chicken Pasta Bowl is fit for any light lunch or dinner, and is tasty heated or eaten cold.",
-      "price": 10,
-      "new": false
-    },
-    {
       "tag": "Breakfast",
-      "name": "Breakfast Meatballs",
-      "desc": "Meatballs in the morning? You betcha! Tasty breakfast sausage-inspired meatballs are paired with cheesy polenta and soft scrambled eggs for a fun new twist on breakfast!",
+      "name": "Strawberry Cheesecake Baked Oatmeal",
+      "desc": "Strawberries, oatmeal, protein...and cheesecake?! It's magical!",
       "price": 10,
       "new": false
     },
     {
       "tag": "Soup",
-      "name": "Autumn Butternut Squash Soup",
-      "desc": "This is hands down the best butternut squash soup you'll put in your belly!  Healthy, nourishing, AND delicious!!",
+      "name": "Chicken Parmesan Soup",
+      "desc": "It's a me - comfort food! Enjoy everything you love about chicken parm in this creamy chicken soup that's lightened up, yet loaded with flavor!",
       "price": 12,
-      "new": true
+      "new": false
     },
     {
       "tag": "Snack",
-      "name": "Scotcheroo Energy Bites",
-      "desc": "We've taken a favorite indulgent snack and given it a healthful boost! A smart way to have a sweet treat or a midafternoon pick-me-up. At 5g protein per ball of goodness, these whole-food treats will treat your body well!",
+      "name": "Caramel Apple Parfait",
+      "desc": "High in protein and flavor, this snack box has it all: hand crafted honey-vanilla yogurt, local apples to create a pie-like filling, the best caramel sauce and  from scratch granola!",
       "price": 6,
       "new": false
     },
     {
       "tag": "Take & Bake",
-      "name": "Take & Bake Enchilada Chicken & Rice Casserole (6 servings)",
-      "desc": "Simple and nostalgic - fresh and juicy chicken, black beans, corn, cheese and rice come together in this dish that will take you back and keep you moving forward on your goals.",
+      "name": "Take & Bake Creamy Chicken Fajita Pasta (6 servings)",
+      "desc": "Inspired by our buddy Reese and her excellent ideas for playing with food, this creamy pasta feels quite indulgent, but is lightened up and packed full of protein!",
       "price": 40,
-      "new": true,
+      "new": false,
       "serves": 6
     }
   ]
