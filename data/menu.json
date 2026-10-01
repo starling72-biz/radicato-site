@@ -1,62 +1,69 @@
 {
-  "weekLabel": "Oct 3\u20134",
+  "weekLabel": "Oct 10-11",
   "deadline": "Wednesday 9:00 AM",
-  "pickupSat": "8:00\u201310:00 AM",
-  "pickupSun": "5:30\u20136:30 PM",
+  "pickupSat": "8:00-10:00 AM",
+  "pickupSun": "5:30-6:30 PM",
   "orderUrl": "https://radicato.goprep.com/customer/menu",
   "menuStatus": {
-    "closeAt": "2026-09-30T09:00:00-05:00",
-    "reopenAt": "2099-12-31T00:00:00-05:00",
-    "reopenLabel": "once the new menu is published"
+    "closeAt": "2026-11-04T09:00:00-06:00",
+    "reopenAt": "2099-12-31T00:00:00-06:00",
+    "reopenLabel": "each Friday morning"
   },
   "items": [
     {
       "tag": "Entree",
-      "name": "Creamy Chicken Fajita Pasta",
-      "desc": "Inspired by our buddy Reese and her excellent ideas for playing with food, this creamy pasta feels quite indulgent, but is lightened up and packed full of protein!",
-      "price": 10,
+      "name": "Jerk Chicken with Pineapple Salsa",
+      "desc": "This is just the dish you need to transport you to somewhere tropical, even if you can't quite yet get there in real life. Starting with a sweet/spicy/tangy marinade and ending with a delicious, pineapple salsa, this dish is delish start to finish!",
+      "price": 10.0,
       "new": false
     },
     {
       "tag": "Entree",
-      "name": "Buffalo Chicken Protein Bowl",
-      "desc": "Looking for a simply delicious way to meet your goals? This bowl is it!! High in protein and flavor, it packs a punch without being too spicy.",
-      "price": 10,
+      "name": "Chicken Pot Pie Gnocchi",
+      "desc": "Just like grandma used to make...if grandma was an Italian living in Iowa! It's a spin on two comfort food classics, both lightened up but heavy on delicious flavor.",
+      "price": 10.0,
       "new": false
     },
     {
-      "tag": "Entree",
-      "name": "Street Corn Beef Bowl",
-      "desc": "Creamy street corn tops roasted sweet potatoes and perfectly seasoned beef in a flavorful power house of a dish.",
-      "price": 11,
+      "tag": "Salad",
+      "name": "Roasted Sweet Potato Black Bean Salad",
+      "desc": "Healthy and filling, this salad combines some amazing southwestern flavors to keep you full and happy! Perfect for lunch on the go, it's also available with chicken.",
+      "price": 10.0,
+      "new": false
+    },
+    {
+      "tag": "Salad",
+      "name": "Roasted Sweet Potato Black Bean & Chicken Salad",
+      "desc": "Healthy and filling, this salad combines some amazing southwestern flavors to keep you full and happy! Perfect for lunch on the go, it's also available without added protein.",
+      "price": 12.0,
       "new": false
     },
     {
       "tag": "Breakfast",
-      "name": "Strawberry Cheesecake Baked Oatmeal",
-      "desc": "Strawberries, oatmeal, protein...and cheesecake?! It's magical!",
-      "price": 10,
+      "name": "Sunrise Omelet Bites",
+      "desc": "Looking for an on-the-go breakfast? High in protein and flavor, these little bites are a super combo of fluffy eggs, red bell peppers, tasty sausage, and seasonings that will make your life easier and tastier!",
+      "price": 10.0,
       "new": false
     },
     {
       "tag": "Soup",
-      "name": "Chicken Parmesan Soup",
-      "desc": "It's a me - comfort food! Enjoy everything you love about chicken parm in this creamy chicken soup that's lightened up, yet loaded with flavor!",
-      "price": 12,
+      "name": "Tuscan Ribollita Soup",
+      "desc": "Italian comfort food at its finest! This creamy, full-flavored vegetable soup makes simple taste simply delicious!",
+      "price": 12.0,
       "new": false
     },
     {
       "tag": "Snack",
-      "name": "Caramel Apple Parfait",
-      "desc": "High in protein and flavor, this snack box has it all: hand crafted honey-vanilla yogurt, local apples to create a pie-like filling, the best caramel sauce and  from scratch granola!",
-      "price": 6,
+      "name": "Everything Bagel Snack Box",
+      "desc": "Packed with nutrition and all the delicious flavor of the Everything Bagel Seasoning blend, this snack box is a great way to switch up your snack game!",
+      "price": 6.0,
       "new": false
     },
     {
       "tag": "Take & Bake",
-      "name": "Take & Bake Creamy Chicken Fajita Pasta (6 servings)",
-      "desc": "Inspired by our buddy Reese and her excellent ideas for playing with food, this creamy pasta feels quite indulgent, but is lightened up and packed full of protein!",
-      "price": 40,
+      "name": "Take & Bake Chicken Pot Pie Gnocchi (6 servings)",
+      "desc": "Creamy, comforting, and putting a spin on two comfort food classics, both lightened up but heavy on delicious flavor.",
+      "price": 40.0,
       "new": false,
       "serves": 6
     }
