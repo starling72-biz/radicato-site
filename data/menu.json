@@ -1,61 +1,61 @@
 {
-  "weekLabel": "Oct 17-18",
+  "weekLabel": "Oct 24-25",
   "deadline": "Wednesday 9:00 AM",
   "pickupSat": "8:00-10:00 AM",
   "pickupSun": "5:30-6:30 PM",
   "orderUrl": "https://radicato.goprep.com/customer/menu",
   "menuStatus": {
-    "closeAt": "2026-10-14T09:00:00-05:00",
+    "closeAt": "2026-10-21T09:00:00-05:00",
     "reopenAt": "2099-12-31T00:00:00-06:00",
     "reopenLabel": "each Friday morning"
   },
   "items": [
     {
       "tag": "Entree",
-      "name": "Pork Tenderloin with Dijon Cream Sauce",
-      "desc": "Simple can be simply delicious! This juicy pork tenderloin is a delicious meat and potatoes kind of meal with a mouth-watering, creamy sauce. Stick to the basics and stick to your goals!",
+      "name": "Honey Mustard Chicken Entree",
+      "desc": "This juicy and tender Honey Mustard Chicken breast entree is a simple dish for lunch or dinner with perfectly sweet and tangy sauce and side of roasted veggies.",
       "price": 10.0,
       "new": false
     },
     {
       "tag": "Entree",
-      "name": "Philly Cheesesteak Bowl",
-      "desc": "A customer favorite, we take a delicious spin on a decadent classic. Tender beef, onions, peppers, and melty cheese make this dish feel indulgent, even though it's quite balanced and nutritious!",
+      "name": "Meatballs with Vodka Sauce",
+      "desc": "Featuring our from-scratch vodka sauce (like a creamy marinara), we're plating up our famous Radicato meatballs with pasta and broccoli to keep things simple, nostalgic, and delicious.",
+      "price": 10.0,
+      "new": false
+    },
+    {
+      "tag": "Entree",
+      "name": "Ground Beef & Broccoli",
+      "desc": "Better than takeout, and healthier, too! We've revamped this simple classic to help you keep your favorite flavors and hit your goals.",
       "price": 11.0,
       "new": false
     },
     {
-      "tag": "Entree",
-      "name": "Ground Chicken Curry",
-      "desc": "Bringing you a world of flavor and nutrients, this tasty curry will leave you feeling good!",
-      "price": 10.0,
-      "new": false
-    },
-    {
       "tag": "Breakfast",
-      "name": "Lemon Raspberry Overnight Oats",
-      "desc": "So fresh and bright - these are a delicious grab and go way to hit your goals!",
-      "price": 7.0,
-      "new": false
+      "name": "Bacon Gouda Breakfast Bowl",
+      "desc": "A comforting way to start your day - scrambled eggs, potatoes, bacon, a sprinkle of creamy gouda cheese and the kick of a sriracha aioli.",
+      "price": 10.0,
+      "new": true
     },
     {
       "tag": "Soup",
-      "name": "Chicken Enchilada Soup",
-      "desc": "Loaded with Tex Mex flavors, this creamy soup will keep you warm and cozy on the coldest days!",
+      "name": "Greek Orzo Soup",
+      "desc": "Delicious, comforting flavors come together in a savory vegetable orzo soup with a lemony twist! This is a fan favorite!!",
       "price": 12.0,
       "new": false
     },
     {
       "tag": "Snack",
-      "name": "Pumpkin Dark Chocolate Mini Muffins",
-      "desc": "A seasonal and tasty little treat, these pumpkin dark chocolate muffins are dairy free, gluten free and refined sugar free -BUT they're FULL of flavor and nutrition (fiber and protein WOW!).",
+      "name": "Mixed Berry Parfait with Radicato Granola",
+      "desc": "Full of the fresh flavors of the season, this is a grown up way to enjoy a protein-packed sweet treat on the go!",
       "price": 6.0,
       "new": false
     },
     {
       "tag": "Take & Bake",
-      "name": "Take & Bake Baked Penne Casserole",
-      "desc": "Simply amazing. We have absolutely PACKED this pasta with flavor and amped up the protein. It's comfort food you can feel good about eating!",
+      "name": "Take & Bake Meatballs with Vodka Sauce",
+      "desc": "Featuring our from-scratch vodka sauce (like a creamy marinara), we're plating up our famous Radicato meatballs with pasta and broccoli to keep things simple, nostalgic, and delicious… in a size your family can share!",
       "price": 40.0,
       "new": false
     }
