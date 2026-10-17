@@ -38,8 +38,10 @@
   "servesCuisine": "American",
   "address": {
     "@type": "PostalAddress",
+    "streetAddress": "703 Arden St",
     "addressLocality": "Boone",
     "addressRegion": "IA",
+    "postalCode": "50036",
     "addressCountry": "US"
   },
   "areaServed": {
@@ -49,38 +51,6 @@
   "sameAs": [
     "https://www.instagram.com/nourishingboone/",
     "https://www.facebook.com/nourishingboone/"
-  ],
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5.0",
-    "reviewCount": "5",
-    "bestRating": "5"
-  },
-  "review": [
-    {
-      "@type": "Review",
-      "author": { "@type": "Person", "name": "Sue Currier" },
-      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
-      "reviewBody": "I can count on eating healthy delicious food with a wonderful variety that I can't manage on my own."
-    },
-    {
-      "@type": "Review",
-      "author": { "@type": "Person", "name": "Kelli Edson" },
-      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
-      "reviewBody": "These meals are packed with flavor, fresh vegetables, and protein. A nutritious meal that leaves me feeling great."
-    },
-    {
-      "@type": "Review",
-      "author": { "@type": "Person", "name": "Elijah Stines" },
-      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
-      "reviewBody": "Radicato is always providing great, high-quality, delicious, and nutritious meal options for our community!"
-    },
-    {
-      "@type": "Review",
-      "author": { "@type": "Person", "name": "Davi Mondt Lowman" },
-      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
-      "reviewBody": "Absolutely the best, healthy food I've had in a very long time in Boone!"
-    }
   ],
   "openingHoursSpecification": [
     {
@@ -101,7 +71,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600;700&family=Zilla+Slab:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/styles.css?v=20">
+<link rel="stylesheet" href="css/styles.css?v=21">
 
 <!-- Google Analytics 4 (property owned by radicatoboone@gmail.com) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-8MPJHRWKEN"></script>
@@ -148,7 +118,10 @@
 <header class="site-header" id="top">
   <div class="container nav-wrap">
     <a class="brand" href="#top">
-      <img class="brand-logo" src="assets/radicato-logo-white.png" alt="Radicáto">
+      <picture>
+        <source srcset="assets/radicato-logo-white-88h.webp" type="image/webp">
+        <img class="brand-logo" src="assets/radicato-logo-white-88h.png" alt="Radicáto" width="174" height="88">
+      </picture>
     </a>
     <nav class="nav" aria-label="Main">
       <a href="#menu">This Week</a>
@@ -171,6 +144,7 @@
     <h1 class="hero-title">Delicious food,<br>made just for <em>you</em>.</h1>
     <p class="hero-sub">Pre-order weekly meals made with seasonal, local ingredients — ready in your fridge when you are. Pickup Saturday and Sunday in Boone.</p>
     <div class="hero-actions">
+      <a class="btn btn-primary" href="https://radicato.goprep.com/customer/menu" target="_blank" rel="noopener">Order Now</a>
       <a class="btn btn-ghost" href="#menu">See the Menu</a>
     </div>
     <p class="hero-note">Orders close <strong>Wednesday 9:00 AM</strong> · Pickup Sat 8–10 AM &amp; Sun 5:30–6:30 PM</p>
@@ -187,8 +161,9 @@
     </div>
 
     <div class="menu-status-closed" id="menuStatusClosed" hidden>
-      <h3>This week's menu is closed.</h3>
-      <p id="menuClosedMsg">Orders are closed for this week. A fresh menu opens each Friday morning — see you then!</p>
+      <h3>Orders for this week are closed.</h3>
+      <p id="menuClosedMsg">Next menu opens Friday.</p>
+      <p class="menu-status-cta" id="menuStatusCta" hidden><a class="btn btn-primary" href="https://radicato.goprep.com/customer/menu" target="_blank" rel="noopener">See the Menu &amp; Order</a></p>
     </div>
 
     <!-- Menu rendered from data/menu.json by js/main.js -->
@@ -253,7 +228,10 @@
     </div>
     <div class="about-values" aria-label="What we care about">
       <figure class="about-photo">
-        <img src="assets/couple-locals.png" alt="Jenny and Chad, the two locals behind Radicáto" loading="lazy">
+        <picture>
+          <source srcset="assets/couple-locals.webp" type="image/webp">
+          <img src="assets/couple-locals.jpg" alt="Jenny and Chad, the two locals behind Radicáto" width="680" height="679" loading="lazy" decoding="async">
+        </picture>
       </figure>
       <div class="value"><span class="value-ico">🥗</span><div><strong>Real ingredients</strong><p>Fresh, recognizable food — not a mystery list.</p></div></div>
       <div class="value"><span class="value-ico">💚</span><div><strong>Local first</strong><p>Sourcing locally whenever we can, because this is home.</p></div></div>
@@ -381,7 +359,10 @@
 <footer class="site-footer">
   <div class="container">
     <div class="footer-brand">
-      <img class="brand-logo footer-logo" src="assets/radicato-logo-white.png" alt="Radicáto">
+      <picture>
+        <source srcset="assets/radicato-logo-white-88h.webp" type="image/webp">
+        <img class="brand-logo footer-logo" src="assets/radicato-logo-white-88h.png" alt="Radicáto" width="174" height="88" loading="lazy">
+      </picture>
     </div>
     <p class="footer-tag">Delicious food, made just for you.</p>
     <nav class="footer-nav" aria-label="Footer">
@@ -397,6 +378,6 @@
   </div>
 </footer>
 
-<script src="js/main.js?v=6"></script>
+<script src="js/main.js?v=8"></script>
 </body>
 </html>
