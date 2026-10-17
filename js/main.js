@@ -47,27 +47,24 @@ document.addEventListener("DOMContentLoaded", function () {
       }
 
       if (state.mode === "closed") {
-        // Past the order cutoff, before the next menu opens.
+        // Past the order cutoff, before the next menu day starts.
+        // Day name only — the open time varies week to week, so never show a clock time.
         grid.hidden = true;
         if (statusBox) statusBox.hidden = false;
         if (statusTitle) statusTitle.textContent = "Orders for this week are closed.";
-        if (closedMsg) {
-          closedMsg.textContent = state.reopenAt
-            ? "Next menu opens " + formatReopen(state.reopenAt) + ". See you then!"
-            : "A fresh menu opens soon. See you then!";
-        }
+        if (closedMsg) closedMsg.textContent = "Next menu opens " + state.reopenDayName + ".";
         if (statusCta) statusCta.hidden = true;
         if (weekLabel && data.weekLabel) weekLabel.textContent = "This Week · " + data.weekLabel;
         return;
       }
 
       if (state.mode === "stale") {
-        // The next menu should be open by now, but data/menu.json still holds
-        // last week's items. Don't show old dishes; send people to GoPrep.
+        // The next menu day has started, but data/menu.json still holds last week's
+        // cutoff. Don't show old dishes or claim the new menu is up; send people to GoPrep.
         grid.hidden = true;
         if (statusBox) statusBox.hidden = false;
-        if (statusTitle) statusTitle.textContent = "This week's menu is up.";
-        if (closedMsg) closedMsg.textContent = "See this week's lineup and place your order on our ordering page.";
+        if (statusTitle) statusTitle.textContent = "New menu coming soon.";
+        if (closedMsg) closedMsg.textContent = "Check GoPrep for the latest.";
         if (statusCta) statusCta.hidden = false;
         if (weekLabel) weekLabel.textContent = "This Week";
         return;
@@ -113,7 +110,7 @@ document.addEventListener("DOMContentLoaded", function () {
   var TZ = "America/Chicago";
   var DAYS = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
-  // For testing only: ?now=2026-10-21T10:00:00-05:00 simulates a different time.
+  // For testing only: ?now=2026-10-21T09:00:00-05:00 simulates a different time.
   function getNow() {
     var m = /[?&]now=([^&]+)/.exec(window.location.search);
     if (m) {
@@ -142,11 +139,12 @@ document.addEventListener("DOMContentLoaded", function () {
     return new Date(Date.UTC(y, mo - 1, d, h + 6, mi));
   }
 
-  // Next reopenDay/reopenTime (Chicago) strictly after closeAt.
+  // Next reopenDay at reopenTime (Chicago) strictly after closeAt.
+  // reopenTime defaults to 00:00 (start of that day) and is never shown in copy.
   function deriveReopen(closeAt, dayName, timeStr) {
     var target = DAYS.indexOf(dayName);
     if (target < 0) target = 5; // Friday
-    var tm = /^(\d{1,2}):(\d{2})$/.exec(timeStr || "") || [null, "8", "00"];
+    var tm = /^(\d{1,2}):(\d{2})$/.exec(timeStr || "") || [null, "0", "00"];
     var p = chicagoParts(closeAt);
     var base = new Date(Date.UTC(+p.year, +p.month - 1, +p.day));
     var add = (target - DAYS.indexOf(p.weekday) + 7) % 7;
@@ -158,28 +156,31 @@ document.addEventListener("DOMContentLoaded", function () {
     return null;
   }
 
-  // Returns { mode: "open" | "closed" | "stale", reopenAt: Date|null }
+  // Returns { mode: "open" | "closed" | "stale", reopenAt: Date|null, reopenDayName: string }
   //   open   - before closeAt (or no closeAt set): show the weekly cards
-  //   closed - between closeAt and the next menu opening
-  //   stale  - after the next opening, but menu.json wasn't updated yet
+  //   closed - after closeAt, before the next reopen day starts
+  //   stale  - that day has started and menu.json still has the old closeAt
   function computeMenuState(ms, now) {
+    var dayName = ms.reopenDay || "Friday";
     var closeAt = ms.closeAt ? new Date(ms.closeAt) : null;
-    if (!closeAt || isNaN(closeAt) || now < closeAt) return { mode: "open", reopenAt: null };
+    if (!closeAt || isNaN(closeAt) || now < closeAt) {
+      return { mode: "open", reopenAt: null, reopenDayName: dayName };
+    }
     var reopenAt = ms.reopenAt ? new Date(ms.reopenAt) : null;
     // An explicit reopenAt is honored only if it's within 14 days of the cutoff;
     // otherwise (e.g. a far-future placeholder) derive it from the weekly cycle.
     var maxGap = 14 * 86400000;
     if (!reopenAt || isNaN(reopenAt) || reopenAt <= closeAt || reopenAt - closeAt > maxGap) {
-      reopenAt = deriveReopen(closeAt, ms.reopenDay || "Friday", ms.reopenTime || "08:00");
+      // reopenTime is accepted for compatibility; default is the start of reopenDay.
+      reopenAt = deriveReopen(closeAt, dayName, ms.reopenTime || "00:00");
     }
-    if (reopenAt && now >= reopenAt) return { mode: "stale", reopenAt: reopenAt };
-    return { mode: "closed", reopenAt: reopenAt };
+    if (reopenAt) dayName = weekdayName(reopenAt);
+    if (reopenAt && now >= reopenAt) return { mode: "stale", reopenAt: reopenAt, reopenDayName: dayName };
+    return { mode: "closed", reopenAt: reopenAt, reopenDayName: dayName };
   }
 
-  function formatReopen(date) {
-    var day = new Intl.DateTimeFormat("en-US", { timeZone: TZ, weekday: "long", month: "short", day: "numeric" }).format(date);
-    var time = new Intl.DateTimeFormat("en-US", { timeZone: TZ, hour: "numeric", minute: "2-digit" }).format(date);
-    return day + " at " + time;
+  function weekdayName(date) {
+    return new Intl.DateTimeFormat("en-US", { timeZone: TZ, weekday: "long" }).format(date);
   }
 
   function escapeHtml(str) {
