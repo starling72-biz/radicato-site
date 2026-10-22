@@ -1,62 +1,62 @@
 {
-  "weekLabel": "Oct 24-25",
+  "weekLabel": "Oct 31-Nov 1",
   "deadline": "Wednesday 9:00 AM",
   "pickupSat": "8:00-10:00 AM",
   "pickupSun": "5:30-6:30 PM",
   "orderUrl": "https://radicato.goprep.com/customer/menu",
   "menuStatus": {
-    "closeAt": "2026-10-21T09:00:00-05:00",
+    "closeAt": "2026-10-28T09:00:00-05:00",
     "reopenAt": "2099-12-31T00:00:00-06:00",
     "reopenLabel": "each Friday morning"
   },
   "items": [
     {
       "tag": "Entree",
-      "name": "Honey Mustard Chicken Entree",
-      "desc": "This juicy and tender Honey Mustard Chicken breast entree is a simple dish for lunch or dinner with perfectly sweet and tangy sauce and side of roasted veggies.",
+      "name": "Korean Pulled Pork",
+      "desc": "Spicy-sweet and absolutely fall-apart tender perfection - this pulled pork is sure to level up the idea of BBQ in the autumn!",
       "price": 10.0,
-      "new": false
-    },
-    {
-      "tag": "Entree",
-      "name": "Meatballs with Vodka Sauce",
-      "desc": "Featuring our from-scratch vodka sauce (like a creamy marinara), we're plating up our famous Radicato meatballs with pasta and broccoli to keep things simple, nostalgic, and delicious.",
-      "price": 10.0,
-      "new": false
-    },
-    {
-      "tag": "Entree",
-      "name": "Ground Beef & Broccoli",
-      "desc": "Better than takeout, and healthier, too! We've revamped this simple classic to help you keep your favorite flavors and hit your goals.",
-      "price": 11.0,
       "new": false
     },
     {
       "tag": "Breakfast",
-      "name": "Bacon Gouda Breakfast Bowl",
-      "desc": "A comforting way to start your day - scrambled eggs, potatoes, bacon, a sprinkle of creamy gouda cheese and the kick of a sriracha aioli.",
+      "name": "Carrot Cake Baked Oatmeal",
+      "desc": "Oh my YUM!! We've taken a healthy spin on a dessert classic! Amped up with protein, fiber, and deliciousness - this is a must try!",
       "price": 10.0,
-      "new": true
-    },
-    {
-      "tag": "Soup",
-      "name": "Greek Orzo Soup",
-      "desc": "Delicious, comforting flavors come together in a savory vegetable orzo soup with a lemony twist! This is a fan favorite!!",
-      "price": 12.0,
       "new": false
     },
     {
-      "tag": "Snack",
-      "name": "Mixed Berry Parfait with Radicato Granola",
-      "desc": "Full of the fresh flavors of the season, this is a grown up way to enjoy a protein-packed sweet treat on the go!",
-      "price": 6.0,
+      "tag": "Entree",
+      "name": "Popcorn Chicken Fried Rice",
+      "desc": "Try our delicious combination of homemade fried rice and chicken bites, served with fresh broccoli. Just like having takeout chicken and fried rice at home!",
+      "price": 10.0,
       "new": false
     },
     {
       "tag": "Take & Bake",
-      "name": "Take & Bake Meatballs with Vodka Sauce",
-      "desc": "Featuring our from-scratch vodka sauce (like a creamy marinara), we're plating up our famous Radicato meatballs with pasta and broccoli to keep things simple, nostalgic, and delicious… in a size your family can share!",
+      "name": "Take & Bake Popcorn Chicken Fried Rice",
+      "desc": "Try our delicious combination of homemade fried rice and chicken bites, serves 6.",
       "price": 40.0,
+      "new": false
+    },
+    {
+      "tag": "Snack",
+      "name": "Sweet & Salty Snack Box",
+      "desc": "Is it hard to make decisions? Do you hope for a little sweet and a little crunch at snack time? We've got the solution! Meet our sweet and salty snack box! Full of simple favorites, including our original peanut butter energy ball, it's an easy way to control your snack portion and satisfy your cravings!",
+      "price": 6.0,
+      "new": false
+    },
+    {
+      "tag": "Soup",
+      "name": "Lasagna Soup",
+      "desc": "All the flavors of a favorite comfort food in a warm, hearty, and healthy soup!",
+      "price": 12.0,
+      "new": false
+    },
+    {
+      "tag": "Entree",
+      "name": "Maple Glazed Salmon",
+      "desc": "The combination of sweet heat and salt makes this salmon dish a true masterpiece! Served with a side of mashed potatoes and crisp-tender green beans, it's a dish that will bring you comfort and warmth as the days start to get chilly.",
+      "price": 12.0,
       "new": false
     }
   ]
