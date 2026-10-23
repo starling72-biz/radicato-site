@@ -224,7 +224,7 @@ h2 { font-size: clamp(2.2rem, 4.6vw, 3.1rem); margin-bottom: .6rem; }
   font-size: .66rem; letter-spacing: .06em;
   margin-left: .35rem; font-weight: 600;
 }
-.serves { font-weight: 600; color: var(--muted); font-size: .8rem; font-family: var(--sans); }
+.serves { font-weight: 600; color: var(--muted); font-size: .8rem; line-height: 1.3; font-family: var(--sans); }
 .card h3 {
   font-family: var(--slab);
   font-weight: 600;
@@ -234,7 +234,8 @@ h2 { font-size: clamp(2.2rem, 4.6vw, 3.1rem); margin-bottom: .6rem; }
   color: var(--ink);
 }
 .card-desc { color: var(--muted); font-size: .93rem; line-height: 1.65; flex-grow: 1; margin-bottom: 1.3rem; }
-.card-foot { display: flex; align-items: center; justify-content: space-between; border-top: 1px solid var(--line); padding-top: .9rem; }
+.card-foot { display: flex; align-items: center; justify-content: space-between; gap: .75rem; border-top: 1px solid var(--line); padding-top: .9rem; }
+.price-group { display: flex; align-items: baseline; gap: .5rem; flex-wrap: wrap; min-width: 0; }
 .price { font-family: var(--slab); font-weight: 600; font-size: 1.45rem; color: var(--green-dark); }
 .order-link { font-weight: 600; color: var(--ink); transition: color .15s ease; }
 .order-link:hover { color: var(--green-dark); text-decoration: none; }
