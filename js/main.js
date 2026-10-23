@@ -83,18 +83,25 @@ document.addEventListener("DOMContentLoaded", function () {
         if (item.new) tagHtml += ' <span class="new-badge">New</span>';
         tagHtml += "</span>";
 
-        var nameHtml = '<h3>' + escapeHtml(item.name);
-        if (item.serves) nameHtml += ' <span class="serves">Serves ' + item.serves + '</span>';
-        nameHtml += "</h3>";
+        var nameHtml = '<h3>' + escapeHtml(item.name) + "</h3>";
 
         var price = "$" + item.price;
+        var servesHtml = "";
+        if (item.serves !== undefined && item.serves !== null && String(item.serves).trim() !== "") {
+          var rawServes = String(item.serves).trim();
+          // A bare number keeps the older "Serves 6" shape. A phrase such as
+          // "Serves 2" is shown as written.
+          var servesLabel = /^\d+$/.test(rawServes) ? "Serves " + rawServes : rawServes;
+          servesHtml = '<span class="serves">' + escapeHtml(servesLabel) + "</span>";
+        }
 
         card.innerHTML =
           tagHtml +
           nameHtml +
           '<p class="card-desc">' + escapeHtml(item.desc) + "</p>" +
-          '<div class="card-foot"><span class="price">' + price + "</span>" +
-          '<a class="order-link" href="' + orderUrl + '" target="_blank" rel="noopener">Order →</a></div>';
+          '<div class="card-foot"><span class="price-group"><span class="price">' + price + "</span>" +
+          servesHtml +
+          '</span><a class="order-link" href="' + orderUrl + '" target="_blank" rel="noopener">Order →</a></div>';
 
         grid.appendChild(card);
       });

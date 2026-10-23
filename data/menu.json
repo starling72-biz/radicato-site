@@ -50,7 +50,8 @@
       "name": "Lasagna Soup",
       "desc": "All the flavors of a favorite comfort food in a warm, hearty, and healthy soup!",
       "price": 12.0,
-      "new": false
+      "new": false,
+      "serves": "Serves 2"
     },
     {
       "tag": "Entree",
