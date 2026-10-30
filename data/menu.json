@@ -43,7 +43,8 @@
       "name": "Take & Bake Creamy Cajun Chicken",
       "desc": "This creamy Cajun chicken pasta features delicious blackened chicken, fresh bright veggies with perfectly cooked al dente pasta in a creamy, dreamy sauce the whole family will love!",
       "price": 40.0,
-      "new": true
+      "new": true,
+      "serves": "Serves 6"
     },
     {
       "tag": "Snack",
