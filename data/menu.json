@@ -1,64 +1,64 @@
 {
-  "weekLabel": "Oct 31-Nov 1",
+  "weekLabel": "Nov 7-8",
   "deadline": "Wednesday 9:00 AM",
   "pickupSat": "8:00-10:00 AM",
   "pickupSun": "5:30-6:30 PM",
   "orderUrl": "https://radicato.goprep.com/customer/menu",
   "menuStatus": {
-    "closeAt": "2026-10-28T09:00:00-05:00",
+    "closeAt": "2026-11-04T09:00:00-06:00",
     "reopenAt": "2099-12-31T00:00:00-06:00",
     "reopenLabel": "each Friday"
   },
   "items": [
     {
       "tag": "Entree",
-      "name": "Korean Pulled Pork",
-      "desc": "Spicy-sweet and absolutely fall-apart tender perfection - this pulled pork is sure to level up the idea of BBQ in the autumn!",
+      "name": "Big C's Power Plate",
+      "desc": "In honor of a legend of strength and community building, we're bringing back the meal Court himself helped design. A protein and nutrient-packed meal to help you stick to your goals and see some gainz!",
+      "price": 11.0,
+      "new": false
+    },
+    {
+      "tag": "Entree",
+      "name": "Chana Masala Bowl",
+      "desc": "Soul-warming is the best way to describe this dish! Chicken and chickpeas are stewed in a blend of tomatoes and Indian spices, served with roasted cauliflower, and topped with a fresh and cooling Raita sauce.",
+      "price": 10.0,
+      "new": false
+    },
+    {
+      "tag": "Entree",
+      "name": "Creamy Cajun Chicken",
+      "desc": "This creamy Cajun chicken pasta features delicious blackened chicken, fresh bright veggies with perfectly cooked al dente pasta in a creamy, dreamy sauce!",
       "price": 10.0,
       "new": false
     },
     {
       "tag": "Breakfast",
-      "name": "Carrot Cake Baked Oatmeal",
-      "desc": "Oh my YUM!! We've taken a healthy spin on a dessert classic! Amped up with protein, fiber, and deliciousness - this is a must try!",
-      "price": 10.0,
-      "new": false
-    },
-    {
-      "tag": "Entree",
-      "name": "Popcorn Chicken Fried Rice",
-      "desc": "Try our delicious combination of homemade fried rice and chicken bites, served with fresh broccoli. Just like having takeout chicken and fried rice at home!",
+      "name": "Maple Pecan Baked Oatmeal",
+      "desc": "This cozy pecan baked oatmeal recipe has notes of cinnamon, vanilla, maple, and pecans to make a delicious breakfast your whole family will fall in love with.",
       "price": 10.0,
       "new": false
     },
     {
       "tag": "Take & Bake",
-      "name": "Take & Bake Popcorn Chicken Fried Rice",
-      "desc": "Try our delicious combination of homemade fried rice and chicken bites, serves 6.",
+      "name": "Take & Bake Creamy Cajun Chicken",
+      "desc": "This creamy Cajun chicken pasta features delicious blackened chicken, fresh bright veggies with perfectly cooked al dente pasta in a creamy, dreamy sauce the whole family will love!",
       "price": 40.0,
-      "new": false
+      "new": true
     },
     {
       "tag": "Snack",
-      "name": "Sweet & Salty Snack Box",
-      "desc": "Is it hard to make decisions? Do you hope for a little sweet and a little crunch at snack time? We've got the solution! Meet our sweet and salty snack box! Full of simple favorites, including our original peanut butter energy ball, it's an easy way to control your snack portion and satisfy your cravings!",
+      "name": "Blueberry Lemon Cheesecake Jar",
+      "desc": "We took a favorite dessert and made it a guilt-free indulgence! High in protein and low in sugar, we use only whole food ingredients to make this jar dessert one you can feel really good about eating!",
       "price": 6.0,
       "new": false
     },
     {
       "tag": "Soup",
-      "name": "Lasagna Soup",
-      "desc": "All the flavors of a favorite comfort food in a warm, hearty, and healthy soup!",
+      "name": "Chicken Pot Pie Soup",
+      "desc": "All the comfort, none of the guilt! We made a classic lighter and fresher without sacrificing flavor.",
       "price": 12.0,
       "new": false,
       "serves": "Serves 2"
-    },
-    {
-      "tag": "Entree",
-      "name": "Maple Glazed Salmon",
-      "desc": "The combination of sweet heat and salt makes this salmon dish a true masterpiece! Served with a side of mashed potatoes and crisp-tender green beans, it's a dish that will bring you comfort and warmth as the days start to get chilly.",
-      "price": 12.0,
-      "new": false
     }
   ]
 }
