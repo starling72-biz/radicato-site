@@ -58,7 +58,8 @@
       "name": "Stuffed Pepper Soup",
       "desc": "Comforting, hearty, and downright delicious - this is a soup the whole family will love!",
       "price": 12.0,
-      "new": false
+      "new": false,
+      "serves": "Serves 2"
     }
   ]
 }
