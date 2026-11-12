@@ -1,62 +1,62 @@
 {
-  "weekLabel": "Nov 14-15",
+  "weekLabel": "Nov 21-22",
   "deadline": "Wednesday 9:00 AM",
   "pickupSat": "8:00-10:00 AM",
   "pickupSun": "5:30-6:30 PM",
   "orderUrl": "https://radicato.goprep.com/customer/menu",
   "menuStatus": {
-    "closeAt": "2026-11-11T09:00:00-06:00",
+    "closeAt": "2026-11-18T09:00:00-06:00",
     "reopenAt": "2099-12-31T00:00:00-06:00",
     "reopenLabel": "each Friday"
   },
   "items": [
     {
       "tag": "Entree",
-      "name": "BBQ Chicken Cornbread Casserole",
-      "desc": "All the favorite flavors wrapped into one amazing dish! Juicy chicken smothered in our house made barbeque sauce and cheddar cheese, topped with from-scratch cornbread.",
+      "name": "Orange Chicken Meatballs",
+      "desc": "These healthy, baked chicken meatballs are epic! Loaded with protein, and coated in a tasty orange chicken sauce, they're a little spicy, a little sweet - and a whole lot of deliciousness!",
       "price": 10.0,
       "new": false
     },
     {
       "tag": "Entree",
-      "name": "Garlic Parmesan Pasta",
-      "desc": "It's everyone's favorite creamy, dreamy sauce baked to perfection with penne pasta, tender chicken, and broccoli! Looking for an all-in-one nutritional and flavor powerhouse? This is it!",
+      "name": "Our Favorite Turkey Burger Entree",
+      "desc": "Where's the beef? Who cares? With this burger, even those who think they don't like turkey will likely change their minds! Juicy and packed with flavor, this is a healthy upgrade to your standard meat-and-potatoes dish.",
       "price": 10.0,
       "new": false
     },
     {
       "tag": "Entree",
-      "name": "Italian Wedding Risotto & Meatballs",
-      "desc": "Our signature radicato meatballs top this creamy, garlicky risotto version of a classic soup. This dish feels outrageously decadent, but is actually quite healthy!",
+      "name": "Pot Roast Stuffed Baked Potato",
+      "desc": "Down-home comfort food at its finest. We take your favorite meat and potatoes and pack them full of flavor and nutrition!",
       "price": 11.0,
       "new": false
     },
     {
       "tag": "Breakfast",
-      "name": "Chocolate Chip Cookie Dough Overnight Oats",
-      "desc": "Packed with protein, fiber, and an amazing cookie flavor - these are a delicious grab and go way to hit your goals!",
-      "price": 7.0,
+      "name": "Breakfast Burrito Bake",
+      "desc": "It's a favorite dish mashup - combining a breakfast burrito and a breakfast pizza! You can eat this deliciousness without feeling sluggish or guilty afterwards.",
+      "price": 10.0,
       "new": false
     },
     {
       "tag": "Take & Bake",
-      "name": "Take & Bake Garlic Parmesan Pasta",
-      "desc": "It's everyone's favorite creamy, dreamy sauce baked to perfection with penne pasta, tender chicken, and broccoli! Looking for an all-in-one nutritional and flavor powerhouse? This is it!",
+      "name": "Take & Bake Zuppa Toscana Casserole",
+      "desc": "It's your midwestern dream come true - a favorite soup turned into a healthy and hearty hot dish! Layers of a creamy sauce swim amongst bacon, Italian sausage, potatoes, and just enough kale to make you feel like you're slaying the healthy eating game.",
       "price": 40.0,
       "new": false,
       "serves": "Serves 6"
     },
     {
       "tag": "Snack",
-      "name": "Pumpkin Pie Chia Pudding",
-      "desc": "If you love pumpkin pie, you will LOVE this Pumpkin Pie Chia Pudding! All the creamy, dreamy flavors of the traditional dessert with a healthy radicato twist!",
+      "name": "Apple Pie Parfait",
+      "desc": "High in protein and flavor, this parfait has it all: honey-vanilla yogurt, local apples to create a pie-like filling, and homemade granola!",
       "price": 6.0,
       "new": false
     },
     {
       "tag": "Soup",
-      "name": "Stuffed Pepper Soup",
-      "desc": "Comforting, hearty, and downright delicious - this is a soup the whole family will love!",
+      "name": "Creamy Chicken & Wild Rice Soup",
+      "desc": "We've lightened up a comfort food classic. This hearty soup is loaded with protein, local vegetables, and flavor!",
       "price": 12.0,
       "new": false,
       "serves": "Serves 2"
