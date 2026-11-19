@@ -31,6 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
     })
     .then(function (data) {
       var orderUrl = (data.orderUrl || "https://radicato.goprep.com/customer/menu");
+      applySchedule(data);
       var state = computeMenuState(data.menuStatus || {}, getNow());
       var statusBox = document.getElementById("menuStatusClosed");
       var statusTitle = statusBox ? statusBox.querySelector("h3") : null;
@@ -188,6 +189,87 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function weekdayName(date) {
     return new Intl.DateTimeFormat("en-US", { timeZone: TZ, weekday: "long" }).format(date);
+  }
+
+  // deadline / pickupSat / pickupSun fill the schedule lines. An empty pickup
+  // window is a week with no pickup that day (this week's Sunday-only exception).
+  function applySchedule(data) {
+    var deadline = String(data.deadline || "").trim();
+    var sat = String(data.pickupSat || "").trim();
+    var sun = String(data.pickupSun || "").trim();
+    if (!deadline && !sat && !sun) return;
+
+    var satShort = sat ? formatCompact(sat) : "";
+    var sunShort = sun ? formatCompact(sun) : "";
+    var pickupLong = [sat ? "Saturday " + satShort : "", sun ? "Sunday " + sunShort : ""].filter(Boolean).join(" or ");
+    var heroWindows = "";
+    if (sat && sun) heroWindows = "Pickup Sat " + satShort + " & Sun " + sunShort;
+    else if (sun) heroWindows = "Pickup Sun " + sunShort;
+    else if (sat) heroWindows = "Pickup Sat " + satShort;
+
+    var heroPickup = "";
+    if (sat && sun) heroPickup = "Pickup Saturday and Sunday in Boone.";
+    else if (sun) heroPickup = "Pickup Sunday in Boone.";
+    else if (sat) heroPickup = "Pickup Saturday in Boone.";
+
+    var pickupFaq = sat && sun ? "that weekend — " + pickupLong : pickupLong;
+
+    setScheduleText("deadline", deadline);
+    setScheduleText("deadline-day", deadline.split(/\s+/)[0]);
+    setScheduleText("deadline-at", deadline.replace(/\s+(?=\d)/, " at "));
+    setScheduleText("deadline-time-first", deadlineTimeFirst(deadline));
+    setScheduleText("hero-windows", heroWindows);
+    setScheduleText("hero-pickup", heroPickup);
+    setScheduleText("pickup-long", pickupLong);
+    setScheduleText("pickup-faq", pickupFaq);
+    fillVisitWindows(sat, sun);
+  }
+
+  function setScheduleText(key, value) {
+    if (!value) return;
+    document.querySelectorAll('[data-schedule="' + key + '"]').forEach(function (el) {
+      el.textContent = value;
+    });
+  }
+
+  function fillVisitWindows(sat, sun) {
+    document.querySelectorAll('[data-schedule="visit-windows"]').forEach(function (el) {
+      el.textContent = "";
+      appendVisitLine(el, "Saturday:", sat);
+      if (sat && sun) el.appendChild(document.createElement("br"));
+      appendVisitLine(el, "Sunday:", sun);
+    });
+  }
+
+  function appendVisitLine(el, label, raw) {
+    if (!raw) return;
+    var strong = document.createElement("strong");
+    strong.textContent = label;
+    el.appendChild(strong);
+    el.appendChild(document.createTextNode(" " + formatSpaced(raw)));
+  }
+
+  // "8:00-10:00 AM" -> "8–10 AM"; "5:30-6:30 PM" -> "5:30–6:30 PM".
+  function formatCompact(raw) {
+    var m = /^(\d{1,2}):(\d{2})\s*[-–]\s*(\d{1,2}):(\d{2})\s*(AM|PM)$/i.exec(raw);
+    if (!m) return raw;
+    function part(h, min) { return min === "00" ? String(+h) : String(+h) + ":" + min; }
+    return part(m[1], m[2]) + "–" + part(m[3], m[4]) + " " + m[5].toUpperCase();
+  }
+
+  // "4:00-6:00 PM" -> "4:00 – 6:00 PM".
+  function formatSpaced(raw) {
+    var m = /^(\d{1,2}:\d{2})\s*[-–]\s*(\d{1,2}:\d{2})\s*(AM|PM)$/i.exec(raw);
+    if (!m) return raw;
+    return m[1] + " – " + m[2] + " " + m[3].toUpperCase();
+  }
+
+  // "Thursday 9:00 AM" -> "9 AM Thursday".
+  function deadlineTimeFirst(deadline) {
+    var m = /^(.*?)\s+(\d{1,2}):(\d{2})\s*(AM|PM)$/i.exec(deadline);
+    if (!m) return deadline;
+    var clock = m[3] === "00" ? String(+m[2]) : m[2] + ":" + m[3];
+    return clock + " " + m[4].toUpperCase() + " " + m[1];
   }
 
   function escapeHtml(str) {
