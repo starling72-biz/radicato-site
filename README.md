@@ -13,7 +13,9 @@ Hosted on GitHub Pages from this branch. Live URL: https://starling72-biz.github
 After design approval: point custom domain `radicatokitchen.com` here (or migrate to Hostinger VPS).
 
 ## Update menu weekly
-Edit `data/menu.json` — weekLabel, items[] (tag/name/desc/price/new/serves). Push to main; Pages rebuilds automatically.
+Edit `data/menu.json` — weekLabel, deadline, pickupSat, pickupSun, items[] (tag/name/desc/price/new/serves). Push to main; Pages rebuilds automatically.
+
+`deadline`, `pickupSat`, and `pickupSun` fill the schedule lines (hero, how it works, FAQ, and the visit card). Use an empty `pickupSat` when that week has no Saturday window. The meta descriptions and the opening-hours block in `index.html` are still written by hand for the current week.
 
 ### Order cutoff / reopen (menuStatus)
 - `closeAt` (ISO time with offset): after this, the menu section shows

@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Radicáto — Chef-Prepared Meals in Boone, Iowa</title>
-<meta name="description" content="Chef-prepared meals made with local ingredients in Boone, Iowa. Pre-order by Wednesday, pick up Saturday or Sunday — ready in your fridge.">
+<meta name="description" content="Chef-prepared meals made with local ingredients in Boone, Iowa. Pre-order by Thursday, pick up Sunday — ready in your fridge.">
 <link rel="canonical" href="https://radicatokitchen.com/">
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 <link rel="apple-touch-icon" href="assets/radicato-og.png">
@@ -13,7 +13,7 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Radicáto">
 <meta property="og:title" content="Radicáto — Chef-Prepared Meals in Boone, Iowa">
-<meta property="og:description" content="Real, locally sourced ingredients. Pre-order by Wednesday, pick up Saturday or Sunday. The Radicáto Kitchen in Boone, Iowa.">
+<meta property="og:description" content="Real, locally sourced ingredients. Pre-order by Thursday, pick up Sunday. The Radicáto Kitchen in Boone, Iowa.">
 <meta property="og:url" content="https://radicatokitchen.com/">
 <meta property="og:image" content="https://radicatokitchen.com/assets/radicato-og.png">
 <meta property="og:image:width" content="1200">
@@ -21,7 +21,7 @@
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Radicáto — Chef-Prepared Meals in Boone, Iowa">
-<meta name="twitter:description" content="Real, locally sourced ingredients. Pre-order by Wednesday, pick up Saturday or Sunday. Boone, Iowa.">
+<meta name="twitter:description" content="Real, locally sourced ingredients. Pre-order by Thursday, pick up Sunday. Boone, Iowa.">
 <meta name="twitter:image" content="https://radicatokitchen.com/assets/radicato-og.png">
 
 <!-- Structured data: LocalBusiness / Restaurant -->
@@ -55,15 +55,9 @@
   "openingHoursSpecification": [
     {
       "@type": "OpeningHoursSpecification",
-      "dayOfWeek": "Saturday",
-      "opens": "08:00",
-      "closes": "10:00"
-    },
-    {
-      "@type": "OpeningHoursSpecification",
       "dayOfWeek": "Sunday",
-      "opens": "17:30",
-      "closes": "18:30"
+      "opens": "16:00",
+      "closes": "18:00"
     }
   ]
 }
@@ -142,12 +136,12 @@
   <div class="container">
     <p class="eyebrow">Made fresh weekly · Boone, Iowa</p>
     <h1 class="hero-title">Delicious food,<br>made just for <em>you</em>.</h1>
-    <p class="hero-sub">Pre-order weekly meals made with seasonal, local ingredients — ready in your fridge when you are. Pickup Saturday and Sunday in Boone.</p>
+    <p class="hero-sub">Pre-order weekly meals made with seasonal, local ingredients — ready in your fridge when you are. <span data-schedule="hero-pickup">Pickup Sunday in Boone.</span></p>
     <div class="hero-actions">
       <a class="btn btn-primary" href="https://radicato.goprep.com/customer/menu" target="_blank" rel="noopener">Order Now</a>
       <a class="btn btn-ghost" href="#menu">See the Menu</a>
     </div>
-    <p class="hero-note">Orders close <strong>Wednesday 9:00 AM</strong> · Pickup Sat 8–10 AM &amp; Sun 5:30–6:30 PM</p>
+    <p class="hero-note">Orders close <strong data-schedule="deadline">Thursday 9:00 AM</strong> · <span data-schedule="hero-windows">Pickup Sun 4–6 PM</span></p>
   </div>
 </section>
 
@@ -176,7 +170,7 @@
 
     <div class="menu-cta">
       <a class="btn btn-primary btn-lg" href="https://radicato.goprep.com/customer/menu" target="_blank" rel="noopener">Place Your Order</a>
-      <p class="menu-cta-note">Orders close <strong>Wednesday 9:00 AM</strong>. Order while you're thinking about it — future you will thank present you.</p>
+      <p class="menu-cta-note">Orders close <strong data-schedule="deadline">Thursday 9:00 AM</strong>. Order while you're thinking about it — future you will thank present you.</p>
     </div>
 
     <div class="share-nudge">
@@ -205,13 +199,13 @@
       </div>
       <div class="step">
         <span class="step-num">2</span>
-        <h3>Pre-order by Wednesday</h3>
-        <p>Place your order and pay online. The window closes at <strong>9 AM Wednesday</strong>.</p>
+        <h3>Pre-order by <span data-schedule="deadline-day">Thursday</span></h3>
+        <p>Place your order and pay online. The window closes at <strong data-schedule="deadline-time-first">9 AM Thursday</strong>.</p>
       </div>
       <div class="step">
         <span class="step-num">3</span>
         <h3>Pick up this weekend</h3>
-        <p>Grab your fresh meals on <strong>Saturday 8–10 AM</strong> or <strong>Sunday 5:30–6:30 PM</strong>.</p>
+        <p>Grab your fresh meals on <strong data-schedule="pickup-long">Sunday 4–6 PM</strong>.</p>
       </div>
     </div>
   </div>
@@ -286,7 +280,7 @@
       </details>
       <details class="faq-item">
         <summary>How does ordering work?</summary>
-        <p>The menu opens <strong>each Friday</strong> and orders close <strong>Wednesday at 9:00 AM</strong>. You order and pay online, then pick up that weekend — <strong>Saturday 8–10 AM</strong> or <strong>Sunday 5:30–6:30 PM</strong>.</p>
+        <p>The menu opens <strong>each Friday</strong> and orders close <strong data-schedule="deadline-at">Thursday at 9:00 AM</strong>. You order and pay online, then pick up <span data-schedule="pickup-faq">Sunday 4–6 PM</span>.</p>
       </details>
       <details class="faq-item">
         <summary>How much do meals cost?</summary>
@@ -298,7 +292,7 @@
       </details>
       <details class="faq-item">
         <summary>Where do I pick up my order?</summary>
-        <p>Pickup is at Boone First United Methodist Church, 703 Arden Street in Boone — Saturday 8–10 AM or Sunday 5:30–6:30 PM.</p>
+        <p>Pickup is at Boone First United Methodist Church, 703 Arden Street in Boone — <span data-schedule="pickup-long">Sunday 4–6 PM</span>.</p>
       </details>
       <details class="faq-item">
         <summary>Do you have vegetarian or dietary options?</summary>
@@ -330,12 +324,12 @@
     <div class="visit-grid">
       <div class="visit-card">
         <h3>📍 Pickup</h3>
-        <p><strong>Saturday:</strong> 8:00 – 10:00 AM<br><strong>Sunday:</strong> 5:30 – 6:30 PM</p>
+        <p data-schedule="visit-windows"><strong>Sunday:</strong> 4:00 – 6:00 PM</p>
         <p>Boone First United Methodist Church<br>703 Arden Street, Boone, Iowa</p>
       </div>
       <div class="visit-card">
         <h3>🕐 Ordering</h3>
-        <p>Orders open each week and close <strong>Wednesday at 9:00 AM</strong>.</p>
+        <p>Orders open each week and close <strong data-schedule="deadline-at">Thursday at 9:00 AM</strong>.</p>
         <a class="btn btn-primary" href="https://radicato.goprep.com/customer/menu" target="_blank" rel="noopener">Start an Order</a>
       </div>
       <div class="visit-card">
@@ -378,6 +372,6 @@
   </div>
 </footer>
 
-<script src="js/main.js?v=9"></script>
+<script src="js/main.js?v=10"></script>
 </body>
 </html>
