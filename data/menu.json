@@ -58,7 +58,8 @@
       "name": "Buffalo Chicken Chili",
       "desc": "This creamy and tangy soup is sure to be a hit with buffalo chicken lovers; this is a great way to change up chili night!",
       "price": 12.0,
-      "new": false
+      "new": false,
+      "serves": "Serves 2"
     }
   ]
 }
